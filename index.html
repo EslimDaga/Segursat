@@ -39,7 +39,8 @@
           </a>
         </li>
         <li class="nav-item theme-text">
-          <a href="index.html" class="nav-link"> 5 </a>
+          <!-- <a href="index.html" class="nav-link"> Segursat </a> -->
+          <img src="/assets/img/header-logo.png" width="120" alt="">
         </li>
         <li class="nav-item toggle-sidebar">
           <a href="javascript:void(0);" class="sidebarCollapse" data-placement="bottom">
@@ -97,21 +98,21 @@
         <li class="nav-item dropdown language-dropdown more-dropdown">
           <div class="dropdown  custom-dropdown-icon">
             <a class="dropdown-toggle btn" href="#" role="button" id="langDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img src="assets/img/ca.png" class="flag-width" alt="flag"><span>Español</span>
+              <img src="assets/img/peru.png" class="flag-width" alt="flag"><span>Español</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
                 <polyline points="6 9 12 15 18 9"></polyline>
               </svg>
             </a>
             <div class="dropdown-menu dropdown-menu-right animated fadeInUp" aria-labelledby="langDropdown">
               <a class="dropdown-item" data-img-value="de" data-value="German" href="javascript:void(0);">
-                <img src="assets/img/ca.png" class="flag-width" alt="flag">English
+                <img src="assets/img/united-states.png" class="flag-width" alt="flag">English
               </a>
               <a class="dropdown-item" data-img-value="jp" data-value="Japanese" href="javascript:void(0);">
                 <img src="assets/img/fr.png" class="flag-width" alt="flag">Italiano
               </a>
             </div>
           </div>
-        </li>  
+        </li>
         <li class="nav-item dropdown message-dropdown">
           <a href="javascript:void(0);" class="nav-link dropdown-toggle" id="messageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle">
@@ -152,7 +153,7 @@
                         <p class="msg-title">ACTUALIZAR CUENTA</p>
                       </div>
                     </div>
-                  </div>                                    
+                  </div>
                 </div>
               </a>
             </div>
@@ -221,10 +222,10 @@
           <div class="dropdown-menu position-absolute animated fadeInUp" aria-labelledby="userProfileDropdown">
             <div class="user-profile-section">
               <div class="media mx-auto">
-                <img src="assets/img/90x90.jpg" class="img-fluid mr-2" alt="avatar">
+                <img src="assets/img/perfil.png" class="img-fluid mr-2" alt="avatar">
                 <div class="media-body">
-                  <h5>Jherson Angeles</h5>
-                  <p>Sectorizta</p>
+                  <h5>Eslim Daga</h5>
+                  <p>Sectorista</p>
                 </div>
               </div>
             </div>
@@ -264,14 +265,13 @@
                 </svg>
                 <span>Cerrar Sesión</span>
               </a>
-            </div>  
+            </div>
           </div>
         </li>
       </ul>
     </header>
   </div>
   <!-- End NavBar -->
-
   <!-- Begin Main Container -->
   <div class="main-container" id="container">
     <div class="overlay"></div>
@@ -282,9 +282,9 @@
         <div class="profile-info">
           <figure class="user-cover-image"></figure>
           <div class="user-info">
-            <img src="assets/img/90x90.jpg" alt="avatar">
-            <h6 class="">Jherson Angeles</h6>
-            <p class="">Sectorizta</p>
+            <img src="assets/img/perfil.png" alt="avatar">
+            <h6 class="">Eslim Daga</h6>
+            <p class="">Sectorista</p>
           </div>
         </div>
         <div class="shadow-bottom"></div>
@@ -373,196 +373,185 @@
         </ul>
       </nav>
     </div>
-      <!--  END SIDEBAR  -->
-      
-      <!--  BEGIN CONTENT AREA  -->
-      <div id="content" class="main-content">
-          <div class="layout-px-spacing">
+    <!-- End Sidebar -->
 
-              <div class="row layout-top-spacing">
-
-                  <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
-                      <div class="widget widget-chart-one">
-                          <div class="widget-heading">
-                              <h5 class="">Alerta de Bateria</h5>
-                              <ul class="tabs tab-pills">
-                                  <li><a href="javascript:void(0);" id="tb_1" class="tabmenu">Mes</a></li>
-                              </ul>
-                          </div>
-
-                          <div class="widget-content">
-                              <div class="tabs tab-content">
-                                  <div id="content_1" class="tabcontent"> 
-                                      <div id="revenueMonthly"></div>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
+    <!-- Begin Content Area -->
+    <div id="content" class="main-content">
+      <div class="layout-px-spacing">
+          <div class="row layout-top-spacing">
+            <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
+              <div class="widget widget-chart-one">
+                <div class="widget-heading">
+                  <h5 class="">Alerta de Bateria</h5>
+                  <ul class="tabs tab-pills">
+                    <li>
+                      <a href="javascript:void(0);" id="tb_1" class="tabmenu">Mes</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="widget-content">
+                  <div class="tabs tab-content">
+                    <div id="content_1" class="tabcontent">
+                      <div id="revenueMonthly"></div>
+                    </div>
                   </div>
-
-                  <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
-                      <div class="widget widget-chart-two">
-                          <div class="widget-heading">
-                              <h5 class="">Alerta de Velocidad</h5>
-                          </div>
-                          <div class="widget-content">
-                              <div id="chart-2" class=""></div>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 layout-spacing">
-                      <div class="widget-two">
-                          <div class="widget-content">
-                              <div class="w-numeric-value">
-                                  <div class="w-content">
-                                      <span class="w-value">Daily sales</span>
-                                      <span class="w-numeric-title">Go to columns for details.</span>
-                                  </div>
-                                  <div class="w-icon">
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
-                                  </div>
-                              </div>
-                              <div class="w-chart">
-                                  <div id="daily-sales"></div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 layout-spacing">
-                      <div class="widget-three">
-                          <div class="widget-heading">
-                              <h5 class="">Summary</h5>
-                          </div>
-                          <div class="widget-content">
-
-                              <div class="order-summary">
-
-                                  <div class="summary-list">
-                                      <div class="w-icon">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path><line x1="3" y1="6" x2="21" y2="6"></line><path d="M16 10a4 4 0 0 1-8 0"></path></svg>
-                                      </div>
-                                      <div class="w-summary-details">
-                                          
-                                          <div class="w-summary-info">
-                                              <h6>Income</h6>
-                                              <p class="summary-count">$92,600</p>
-                                          </div>
-
-                                          <div class="w-summary-stats">
-                                              <div class="progress">
-                                                  <div class="progress-bar bg-gradient-secondary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                              </div>
-                                          </div>
-
-                                      </div>
-
-                                  </div>
-
-                                  <div class="summary-list">
-                                      <div class="w-icon">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg>
-                                      </div>
-                                      <div class="w-summary-details">
-                                          
-                                          <div class="w-summary-info">
-                                              <h6>Profit</h6>
-                                              <p class="summary-count">$37,515</p>
-                                          </div>
-
-                                          <div class="w-summary-stats">
-                                              <div class="progress">
-                                                  <div class="progress-bar bg-gradient-success" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                                              </div>
-                                          </div>
-
-                                      </div>
-
-                                  </div>
-
-                                  <div class="summary-list">
-                                      <div class="w-icon">
-                                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-credit-card"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
-                                      </div>
-                                      <div class="w-summary-details">
-                                          
-                                          <div class="w-summary-info">
-                                              <h6>Expenses</h6>
-                                              <p class="summary-count">$55,085</p>
-                                          </div>
-
-                                          <div class="w-summary-stats">
-                                              <div class="progress">
-                                                  <div class="progress-bar bg-gradient-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-                                              </div>
-                                          </div>
-
-                                      </div>
-
-                                  </div>
-                                  
-                              </div>
-
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="col-xl-4 col-lg-12 col-md-6 col-sm-12 col-12 layout-spacing">
-                      <div class="widget-one widget">
-                          <div class="widget-content">
-                              <div class="w-numeric-value">
-                                  <div class="w-icon">
-                                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
-                                  </div>
-                                  <div class="w-content">
-                                      <span class="w-value">3,192</span>
-                                      <span class="w-numeric-title">Total Orders</span>
-                                  </div>
-                              </div>
-                              <div class="w-chart">
-                                  <div id="total-orders"></div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-
+                </div>
               </div>
-
-          </div>
-          <div class="footer-wrapper">
-              <div class="footer-section f-section-1">
-                  <p class="">Copyright © 2020 <a target="_blank" href="https://designreset.com">DesignReset</a>, All rights reserved.</p>
+            </div>
+            <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
+              <div class="widget widget-chart-two">
+                <div class="widget-heading">
+                  <h5 class="">Alerta de Velocidad</h5>
+                </div>
+                <div class="widget-content">
+                  <div id="chart-2" class=""></div>
+                </div>
               </div>
-              <div class="footer-section f-section-2">
-                  <p class="">Coded with <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg></p>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 layout-spacing">
+              <div class="widget-two">
+                <div class="widget-content">
+                  <div class="w-numeric-value">
+                    <div class="w-content">
+                      <span class="w-value">Reportes Diarios</span>
+                      <span class="w-numeric-title">Ir a las columnas para obtener detalles.</span>
+                    </div>
+                    <div class="w-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-dollar-sign">
+                        <line x1="12" y1="1" x2="12" y2="23"></line>
+                        <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="w-chart">
+                    <div id="daily-sales"></div>
+                  </div>
+                </div>
               </div>
+            </div>
+            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-12 layout-spacing">
+              <div class="widget-three">
+                <div class="widget-heading">
+                  <h5 class="">Resumen</h5>
+                </div>
+                <div class="widget-content">
+                  <div class="order-summary">
+                    <div class="summary-list">
+                      <div class="w-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-bag">
+                          <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                          <line x1="3" y1="6" x2="21" y2="6"></line>
+                          <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                      </div>
+                      <div class="w-summary-details">
+                        <div class="w-summary-info">
+                          <h6>Reportes</h6>
+                          <p class="summary-count">$92,600</p>
+                        </div>
+                        <div class="w-summary-stats">
+                          <div class="progress">
+                            <div class="progress-bar bg-gradient-secondary" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="summary-list">
+                      <div class="w-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag">
+                          <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                          <line x1="7" y1="7" x2="7" y2="7"></line>
+                        </svg>
+                      </div>
+                      <div class="w-summary-details">
+                        <div class="w-summary-info">
+                          <h6>Usuarios</h6>
+                          <p class="summary-count">$37,515</p>
+                        </div>
+                        <div class="w-summary-stats">
+                          <div class="progress">
+                            <div class="progress-bar bg-gradient-success" role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="summary-list">
+                      <div class="w-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-credit-card">
+                          <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
+                          <line x1="1" y1="10" x2="23" y2="10"></line>
+                        </svg>
+                      </div>
+                      <div class="w-summary-details">
+                        <div class="w-summary-info">
+                          <h6>Alertas</h6>
+                          <p class="summary-count">$55,085</p>
+                        </div>
+                        <div class="w-summary-stats">
+                          <div class="progress">
+                            <div class="progress-bar bg-gradient-warning" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-4 col-lg-12 col-md-6 col-sm-12 col-12 layout-spacing">
+              <div class="widget-one widget">
+                <div class="widget-content">
+                  <div class="w-numeric-value">
+                    <div class="w-icon">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+                    </div>
+                    <div class="w-content">
+                      <span class="w-value">3,192</span>
+                      <span class="w-numeric-title">Total de Ordenes</span>
+                    </div>
+                  </div>
+                  <div class="w-chart">
+                    <div id="total-orders"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
       </div>
-      <!--  END CONTENT AREA  -->
-
-
+      <div class="footer-wrapper">
+        <div class="footer-section f-section-1">
+          <p class="">Copyright © 2020 <a target="_blank" href="https://segursat.com">Segursat</a>,Todos los derechos reservados.</p>
+        </div>
+        <div class="footer-section f-section-2">
+          <p class="">Programado con
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Content Area -->
   </div>
   <!-- End Main Container -->
 
-    <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
-    <script src="assets/js/libs/jquery-3.1.1.min.js"></script>
-    <script src="bootstrap/js/popper.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-    <script src="assets/js/app.js"></script>
-    <script>
-        $(document).ready(function() {
-            App.init();
-        });
-    </script>
-    <script src="assets/js/custom.js"></script>
-    <!-- END GLOBAL MANDATORY SCRIPTS -->
+  <!-- Begin Global Mandatory Scripts -->
+  <script src="assets/js/libs/jquery-3.1.1.min.js"></script>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+  <script src="assets/js/app.js"></script>
+  <script>
+      $(document).ready(function() {
+          App.init();
+      });
+  </script>
+  <script src="assets/js/custom.js"></script>
+  <!-- End Global Mandatory Scripts -->
 
-    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
-    <script src="plugins/apex/apexcharts.min.js"></script>
-    <script src="assets/js/dashboard/dash_1.js"></script>
-    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
-
+  <!-- Begin Page Level Plugin/Custon -->
+  <script src="plugins/apex/apexcharts.min.js"></script>
+  <script src="assets/js/dashboard/dash_1.js"></script>
+  <!-- Begin Page Level Plugin/Custom Scripts -->
 </body>
 </html>
