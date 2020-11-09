@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <title>Reportes - Segursat </title>
+    <title>Widget Map - Segursat </title>
     <link rel="icon" type="image/x-icon" href="assets/img/varios/favicon.png"/>
     <link href="assets/css/loader.css" rel="stylesheet" type="text/css" />
     <script src="assets/js/loader.js"></script>
@@ -13,15 +13,14 @@
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
     <!-- End Global Mandatory Styles -->
-    <!-- Begin Page Level Custom Styles -->
-    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/datatables.css">
-    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/custom_dt_html5.css">
-    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/dt-global_style.css">
-    <link href="assets/css/elements/miscellaneous.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/elements/breadcrumb.css" rel="stylesheet" type="text/css" />
-    <script src="https://kit.fontawesome.com/2ea5efd210.js" crossorigin="anonymous"></script>
-    <!-- End Page Level Custom Styles -->
+    <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
   </head>
+  <style>
+    .map {
+    width: 100%;
+    height: 100%; }
+  </style>
 <body class="sidebar-noneoverflow">
   <!-- Begin Loader -->
   <div id="load_screen">
@@ -294,8 +293,8 @@
         </div>
         <div class="shadow-bottom"></div>
         <ul class="list-unstyled menu-categories" id="accordionExample">
-          <li class="menu">
-            <a href="#dashboard" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
+          <li class="menu active">
+            <a href="#dashboard" data-toggle="collapse" aria-expanded="true" class="dropdown-toggle">
               <div class="">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
                   <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
@@ -309,11 +308,11 @@
                 </svg>
               </div>
             </a>
-            <ul class="collapse submenu list-unstyled" id="maps" data-parent="#accordionExample">
+            <ul class="collapse submenu recent-submenu mini-recent-submenu list-unstyled show" id="dashboard" data-parent="#accordionExample">
               <li>
-                <a href="index.html"> Gráficos </a>
+                <a href="index.html"> Graficos </a>
               </li>
-              <li>
+              <li class="active">
                 <a href="map-panel.html"> Widget Map </a>
               </li>
             </ul>
@@ -347,7 +346,7 @@
                 <a href="map.html"> Mapa </a>
               </li>
               <li>
-                <a href="checkpoint.html"> Checkpoint </a>
+                <a href="index2.html"> Checkpoint </a>
               </li>
             </ul>
           </li>
@@ -376,7 +375,7 @@
             </a>
           </li>
           <li class="menu">
-            <a href="users.html" aria-expanded="true" class="dropdown-toggle">
+            <a href="users.html" aria-expanded="false" class="dropdown-toggle">
               <div class="">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users">
                   <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
@@ -394,98 +393,29 @@
     <!-- End Sidebar  -->
     <!-- Begin Content Area -->
     <div id="content" class="main-content">
-      <div class="layout-px-spacing">
-        <div class="row layout-top-spacing">
-          <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
-            <nav class="breadcrumb-two" aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                  <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
-                  <li class="breadcrumb-item active"><a href="reports.html">Usuarios</a></li>
-                  <li class="breadcrumb-item"></li>
-              </ol>
-            </nav>
-          </div>
-          <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
-            <div class="widget-content widget-content-area br-6">
-              <div class="table-responsive mb-4 mt-4">
-                <table id="html5-extension" class="table table-hover non-hover" style="width:100%">
-                  <thead>
-                    <tr>
-                      <th>Nombres</th>
-                      <th>Apellidos</th>
-                      <th>Email</th>
-                      <th>Proveedor</th>
-                      <th>Estado</th>
-                      <th>Acción</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Eslim Victor</td>
-                      <td>Daga Castro</td>
-                      <td>edaga@segursat.com</td>
-                      <td>SEGURSAT</td>
-                      <td><span class="badge badge-success"> Activo </span></td>
-                      <td>
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i></button>
-                          <button type="button" class="btn btn-dark btn-sm dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference24" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
-                              <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                          </button>
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuReference24">
-                            <a class="dropdown-item" href="#"><i class="fas fa-pencil-alt" style="padding-right: 15px;"></i>Editar</a>
-                            <a class="dropdown-item" href="#"><i class="fas fa-trash-alt" style="padding-right: 15px;"></i>Eliminar</a>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>James</td>
-                      <td>Palacios Guillen</td>
-                      <td>jpalacios@segursat.com</td>
-                      <td>SEGURSAT</td>
-                      <td><span class="badge badge-danger"> Inactivo </span></td>
-                      <td>
-                        <div class="btn-group">
-                          <button type="button" class="btn btn-dark btn-sm"><i class="fas fa-eye"></i></button>
-                          <button type="button" class="btn btn-dark btn-sm dropdown-toggle dropdown-toggle-split" id="dropdownMenuReference24" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
-                              <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg>
-                          </button>
-                          <div class="dropdown-menu" aria-labelledby="dropdownMenuReference24">
-                            <a class="dropdown-item" href="#"><i class="fas fa-pencil-alt" style="padding-right: 15px;"></i>Editar</a>
-                            <a class="dropdown-item" href="#"><i class="fas fa-trash-alt" style="padding-right: 15px;"></i>Eliminar</a>
-                          </div>
-                        </div>
-                      </td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-wrapper">
-        <div class="footer-section f-section-1">
-          <p class="">Copyright © 2020 <a target="_blank" href="https://segursat.com">Segursat</a>,Derechos reservados.</p>
-        </div>
-        <div class="footer-section f-section-2">
-          <p class="">Programado con
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart">
-              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-            </svg>
-          </p>
-        </div>
-      </div>
+      <div id="map" class="map"></div>
     </div>
     <!-- End Content Area -->
   </div>
   <!-- End Main Container -->
+  <script>
+    var map = L.map('map').setView([-12.1021887,-77.0665742], 17);
 
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var greenIcon = L.icon({
+      iconUrl: 'assets/img/markers/camion.png',
+      iconSize:     [40, 40],
+      shadowSize:   [50, 64],
+      iconAnchor:   [22, 94],
+      shadowAnchor: [4, 62],
+      popupAnchor:  [-3, -76]
+    });
+
+    L.marker([-12.1021887,-77.0665742], {icon: greenIcon}).addTo(map).bindPopup("ANO-765");
+  </script>
   <!-- Begin Global Mandatory Scripts -->
   <script src="assets/js/libs/jquery-3.1.1.min.js"></script>
   <script src="bootstrap/js/popper.min.js"></script>
@@ -499,36 +429,6 @@
   </script>
   <script src="assets/js/custom.js"></script>
   <!-- End Global Mandatory Scripts -->
-  <!-- Begin Page Level Custom Scripts -->
-  <script src="plugins/table/datatable/datatables.js"></script>
-  <!-- NOTE TO Use Copy CSV Excel PDF Print Options You Must Include These Files  -->
-  <script src="plugins/table/datatable/button-ext/dataTables.buttons.min.js"></script>
-  <script src="plugins/table/datatable/button-ext/jszip.min.js"></script>
-  <script src="plugins/table/datatable/button-ext/buttons.html5.min.js"></script>
-  <script src="plugins/table/datatable/button-ext/buttons.print.min.js"></script>
-  <script>
-      $('#html5-extension').DataTable( {
-        dom: '<"row"<"col-md-12"<"row"<"col-md-6"B><"col-md-6"f> > ><"col-md-12"rt> <"col-md-12"<"row"<"col-md-5"i><"col-md-7"p>>> >',
-        buttons: {
-          buttons: [
-            { extend: 'copy', className: 'btn' },
-            { extend: 'csv', className: 'btn' },
-            { extend: 'excel', className: 'btn' },
-            { extend: 'print', className: 'btn' }
-          ]
-        },
-        "oLanguage": {
-          "oPaginate": { "sPrevious": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-left"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>', "sNext": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>' },
-          "sInfo": "Mostrando página _PAGE_ de _PAGES_",
-          "sSearch": '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>',
-          "sSearchPlaceholder": "Buscar...",
-          "sLengthMenu": "Results :  _MENU_",
-        },
-        "stripeClasses": [],
-        "lengthMenu": [7, 10, 20, 50],
-        "pageLength": 7
-      });
-  </script>
-  <!-- End Page Level Custom Scripts -->
+
 </body>
 </html>
