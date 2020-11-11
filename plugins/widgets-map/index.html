@@ -9,6 +9,128 @@
     <script src="https://kit.fontawesome.com/2ea5efd210.js" crossorigin="anonymous"></script>
   </head>
   <body style="overflow: hidden;">
+    <div id="map-controls">
+      <div>
+        <div class="btn-group-vertical" role="group">
+          <button type="button" class="btn" onclick="app.mapFull();">
+            <span class="icon map-expand"></span>
+          </button>
+        </div>
+      </div>
+      <div class="leaflet-control-layers" aria-haspopup="true">
+        <a class="leaflet-control-layers-toggle" href="#" title="Layers"></a>
+        <form class="leaflet-control-layers-list">
+          <div class="leaflet-control-layers-base">
+            <label>
+              <div>
+                <input type="radio" class="leaflet-control-layers-selector" name="leaflet-base-layers">
+                <span> Google Hybrid</span>
+              </div>
+            </label>
+            <label>
+              <div>
+                <input type="radio" class="leaflet-control-layers-selector" name="leaflet-base-layers" checked="checked">
+                <span> Google Normal</span>
+              </div>
+            </label>
+            <label>
+              <div>
+                <input type="radio" class="leaflet-control-layers-selector" name="leaflet-base-layers">
+                <span> Google Satellite</span>
+              </div>
+            </label>
+            <label>
+              <div>
+                <input type="radio" class="leaflet-control-layers-selector" name="leaflet-base-layers">
+                <span> Google Terrain</span>
+              </div>
+            </label>
+            <label>
+              <div>
+                <input type="radio" class="leaflet-control-layers-selector" name="leaflet-base-layers">
+                <span> OpenStreetMap</span>
+              </div>
+            </label>
+          </div>
+          <div class="leaflet-control-layers-separator" style="display: none;"></div>
+          <div class="leaflet-control-layers-overlays"></div>
+        </form>
+      </div>
+
+      <div>
+        <div class="btn-group-vertical" data-position="fixed" role="group">
+          <button type="button" class="btn" onclick="$('.leaflet-control-layers').toggleClass('leaflet-control-layers-expanded');">
+            <span class="icon map-change"></span>
+          </button>
+        </div>
+      </div>
+      <div>
+        <div class="btn-group-vertical" role="group">
+          <button type="button" class="btn" onclick="app.zoomIn();"><span class="icon zoomIn"></span></button>
+          <button type="button" class="btn" onclick="app.zoomOut();"><span class="icon zoomOut"></span></button>
+        </div>
+      </div>
+      <div id="map-controls-layers">
+        <div class="btn-group-vertical" role="group" data-toggle="buttons">
+          <label class="btn active">
+            <input id="clusterDevice" type="checkbox" autocomplete="off" onchange="app.changeSetting('clusterDevice', this.checked);">
+            <span class="icon group-devices"></span>
+          </label>
+          <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Fit objects">
+            <input id="fitBounds" type="checkbox" autocomplete="off" onchange="app.devices.toggleFitBounds(this.checked);">
+            <span class="icon fitBounds"></span>
+          </label>
+          <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Objects">
+            <input id="showDevice" type="checkbox" autocomplete="off" onchange="app.changeSetting('showDevice', this.checked);">
+            <span class="icon devices"></span>
+          </label>
+          <label class="btn" data-toggle="tooltip" data-placement="left" title="" data-original-title="Geofences">
+            <input id="showGeofences" type="checkbox" autocomplete="off" onchange="app.changeSetting('showGeofences', this.checked);">
+            <span class="icon geofences"></span>
+          </label>
+          <label class="btn" data-toggle="tooltip" data-placement="left" title="" data-original-title="Routes">
+            <input id="showRoutes" type="checkbox" autocomplete="off" onchange="app.changeSetting('showRoutes', this.checked);">
+            <span class="icon routes"></span>
+          </label>
+          <label class="btn" data-toggle="tooltip" data-placement="left" title="" data-original-title="POI">
+            <input id="showPoi" type="checkbox" autocomplete="off" onchange="app.changeSetting('showPoi', this.checked);">
+            <span class="icon poi"></span>
+          </label>
+          <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Show names">
+            <input id="showNames" type="checkbox" autocomplete="off" onchange="app.changeSetting('showNames', this.checked);">
+            <span class="icon show-name"></span>
+          </label>
+          <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Show tails">
+            <input id="showTail" type="checkbox" autocomplete="off" onchange="app.changeSetting('showTail', this.checked);">
+            <span class="icon show-tail"></span>
+          </label>
+          <label class="btn" data-toggle="tooltip" data-placement="left" title="" data-original-title="Live traffic">
+            <input id="showTraffic" type="checkbox" autocomplete="off" onchange="app.changeSetting('showTraffic', this.checked);">
+            <span class="icon traffic"></span>
+          </label>
+        </div>
+      </div>
+      <div id="history-control-layers" style="display: none;">
+        <div class="btn-group-vertical" role="group" data-toggle="buttons">
+          <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Route">
+            <input id="showHistoryRoute" type="checkbox" autocomplete="off" onchange="app.changeSetting('showHistoryRoute', this.checked);">
+            <span class="icon routes"></span>
+          </label>
+          <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Arrows">
+            <input id="showHistoryArrow" type="checkbox" autocomplete="off" onchange="app.changeSetting('showHistoryArrow', this.checked);">
+            <span class="icon device"></span>
+          </label>
+          <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Stops">
+            <input id="showHistoryStop" type="checkbox" autocomplete="off" onchange="app.changeSetting('showHistoryStop', this.checked);">
+            <span class="icon parking"></span>
+          </label>
+          <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Events">
+            <input id="showHistoryEvent" type="checkbox" autocomplete="off" onchange="app.changeSetting('showHistoryEvent', this.checked);">
+            <span class="icon event"></span>
+          </label>
+        </div>
+      </div>
+    </div>
     <div id="sidebar-map" style="padding-bottom: 0px;">
       <a class="btn-collapse" onclick="app.changeSetting('toggleSidebar');"><i></i></a>
       <div class="sidebar-map-content">

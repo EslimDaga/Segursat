@@ -12139,7 +12139,7 @@ var app = {
         this.map.setView(this.map.getCenter(), this.map.getZoom() - 1)
     },
     mapFull: function() {
-        this.settings.mapFull = !this.settings.mapFull, this.settings.mapFull ? ($("#header").addClass("hidden"), $("#sidebar").addClass("hidden"), $("#widgets").addClass("hidden"), $("#map-controls-layers").addClass("hidden"), $("#history-control-layers").addClass("hidden")) : ($("#header").removeClass("hidden"), $("#sidebar").removeClass("hidden"), $("#widgets").removeClass("hidden"), $("#map-controls-layers").removeClass("hidden"), $("#history-control-layers").removeClass("hidden"))
+        this.settings.mapFull = !this.settings.mapFull, this.settings.mapFull ? ($("#header").addClass("hidden"), $("#sidebar-map").addClass("hidden"), $("#widgets").addClass("hidden"), $("#map-controls-layers").addClass("hidden"), $("#history-control-layers").addClass("hidden")) : ($("#header").removeClass("hidden"), $("#sidebar-map").removeClass("hidden"), $("#widgets").removeClass("hidden"), $("#map-controls-layers").removeClass("hidden"), $("#history-control-layers").removeClass("hidden"))
     },
     showControls: function() {
         $("#map-controls-layers").show()
@@ -12449,7 +12449,7 @@ function remoteContent(t, e) {
 
 function sidebarAutoHeight() {
     dd("sidebarAutoHeight");
-    var t = $("#sidebar"),
+    var t = $("#sidebar-map"),
         e = $(".tab-content", t),
         i = $(".tab-pane.active", t);
     if (t.length && e.length) {
@@ -12472,7 +12472,7 @@ function bottomAutoWidth() {
         var t = 0,
             e = 0,
             i = 997,
-            n = $("#sidebar"),
+            n = $("#sidebar-map"),
             o = $("#bottombar");
         $(window).width() > 500 ? n.length && (t = n.width()) : (o.length && (e = o.height()), i = 1e3), n.css("padding-bottom", e + "px"), o.css("padding-left", t + "px"), o.css("z-index", i)
     }, 460)
