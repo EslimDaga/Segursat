@@ -12378,7 +12378,7 @@ body{
     display:block;
     position:absolute;
     color:#aaa;
-    background:#f9f9f9;
+    background:#445ede;
     text-align:center;
     text-decoration:none;
     font-size:10px;
@@ -12452,13 +12452,13 @@ body{
 #widgets .btn-collapse:before,.btn-collapse.collapse-top:before{
     top:0;
     right:100%;
-    border-bottom:20px solid #f9f9f9;
+    border-bottom:20px solid #445ede;
     border-left:20px solid transparent
 }
 #widgets .btn-collapse:after,.btn-collapse.collapse-top:after{
     top:0;
     left:100%;
-    border-bottom:20px solid #f9f9f9;
+    border-bottom:20px solid #445ede;
     border-right:20px solid transparent
 }
 .btn-collapse.collapse-bottom{
