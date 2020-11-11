@@ -16,6 +16,7 @@
     <!-- End Global Mandatory Styles -->
     <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <script src="https://kit.fontawesome.com/2ea5efd210.js" crossorigin="anonymous"></script>
   </head>
   <style>
     .map {
@@ -395,6 +396,84 @@
     <!-- Begin Content Area -->
     <div id="content" class="main-content">
       <div id="map" class="map"></div>
+      <!-- Begin Right Bar -->
+      <div id="map-controls">
+        <div>
+          <div class="btn-group-vertical" role="group">
+            <button type="button" class="btn" onclick="app.mapFull();">
+              <i class="fas fa-expand-arrows-alt"></i>
+            </button>
+          </div>
+        </div>
+        <div>
+          <div class="btn-group-vertical" role="group">
+            <button type="button" class="btn" onclick="app.zoomIn();"><span class="icon zoomIn"></span></button>
+            <button type="button" class="btn" onclick="app.zoomOut();"><span class="icon zoomOut"></span></button>
+          </div>
+        </div>
+        <div id="map-controls-layers">
+          <div class="btn-group-vertical" role="group" data-toggle="buttons">
+            <label class="btn active">
+              <input id="clusterDevice" type="checkbox" autocomplete="off" onchange="app.changeSetting('clusterDevice', this.checked);">
+              <span class="icon group-devices"></span>
+            </label>
+            <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Fit objects">
+              <input id="fitBounds" type="checkbox" autocomplete="off" onchange="app.devices.toggleFitBounds(this.checked);">
+              <span class="icon fitBounds"></span>
+            </label>
+            <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Objects">
+              <input id="showDevice" type="checkbox" autocomplete="off" onchange="app.changeSetting('showDevice', this.checked);">
+              <span class="icon devices"></span>
+            </label>
+            <label class="btn" data-toggle="tooltip" data-placement="left" title="" data-original-title="Geofences">
+              <input id="showGeofences" type="checkbox" autocomplete="off" onchange="app.changeSetting('showGeofences', this.checked);">
+              <span class="icon geofences"></span>
+            </label>
+            <label class="btn" data-toggle="tooltip" data-placement="left" title="" data-original-title="Routes">
+              <input id="showRoutes" type="checkbox" autocomplete="off" onchange="app.changeSetting('showRoutes', this.checked);">
+              <span class="icon routes"></span>
+            </label>
+            <label class="btn" data-toggle="tooltip" data-placement="left" title="" data-original-title="POI">
+              <input id="showPoi" type="checkbox" autocomplete="off" onchange="app.changeSetting('showPoi', this.checked);">
+              <span class="icon poi"></span>
+            </label>
+            <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Show names">
+              <input id="showNames" type="checkbox" autocomplete="off" onchange="app.changeSetting('showNames', this.checked);">
+              <span class="icon show-name"></span>
+            </label>
+            <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Show tails">
+              <input id="showTail" type="checkbox" autocomplete="off" onchange="app.changeSetting('showTail', this.checked);">
+              <span class="icon show-tail"></span>
+            </label>
+            <label class="btn" data-toggle="tooltip" data-placement="left" title="" data-original-title="Live traffic">
+              <input id="showTraffic" type="checkbox" autocomplete="off" onchange="app.changeSetting('showTraffic', this.checked);">
+              <span class="icon traffic"></span>
+            </label>
+          </div>
+        </div>
+        <div id="history-control-layers" style="display: none;">
+          <div class="btn-group-vertical" role="group" data-toggle="buttons">
+            <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Route">
+              <input id="showHistoryRoute" type="checkbox" autocomplete="off" onchange="app.changeSetting('showHistoryRoute', this.checked);">
+              <span class="icon routes"></span>
+            </label>
+            <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Arrows">
+              <input id="showHistoryArrow" type="checkbox" autocomplete="off" onchange="app.changeSetting('showHistoryArrow', this.checked);">
+              <span class="icon device"></span>
+            </label>
+            <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Stops">
+              <input id="showHistoryStop" type="checkbox" autocomplete="off" onchange="app.changeSetting('showHistoryStop', this.checked);">
+              <span class="icon parking"></span>
+            </label>
+            <label class="btn active" data-toggle="tooltip" data-placement="left" title="" data-original-title="Events">
+              <input id="showHistoryEvent" type="checkbox" autocomplete="off" onchange="app.changeSetting('showHistoryEvent', this.checked);">
+              <span class="icon event"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <!-- End Right Bar -->
+      <!-- Begin Bottom Bar -->
       <div id="bottombar" style="padding-left: 300px; z-index: 997;">
         <div id="widgets" data-device-id="1347">
           <a class="btn-collapse" onclick="app.changeSetting('toggleWidgets');"><i></i></a>
@@ -502,6 +581,7 @@
           </div>
         </div>
       </div>
+      <!-- End Bottom Bar -->
     </div>
     <!-- End Content Area -->
   </div>
