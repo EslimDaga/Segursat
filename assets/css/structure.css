@@ -541,7 +541,7 @@ code {
       display: block;
       border: 1px solid #25d5e4; }
   .navbar .navbar-item .nav-item.dropdown.notification-dropdown .dropdown-menu {
-    min-width: 15rem;
+    min-width: 25rem;
     right: -5px;
     left: auto; }
     .navbar .navbar-item .nav-item.dropdown.notification-dropdown .dropdown-menu .dropdown-item {
