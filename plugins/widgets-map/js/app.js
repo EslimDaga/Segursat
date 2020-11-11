@@ -12020,7 +12020,6 @@ var app = {
     deviceMedia: new DeviceMedia,
     listView: new ListView,
     chat: new Chat,
-    dashboard: new Dashboard,
     rulerDraw: null,
     drawnItems: null,
     showPointMarker: null,
@@ -12187,7 +12186,7 @@ var app = {
     getMapPadding: function() {
         var t = 10,
             e = 10,
-            i = $("#sidebar"),
+            i = $("#sidebar-map"),
             n = $("#bottombar");
         return i.length && (t += i.width() + i.offset().left), n.length && (e += n.height()), dd({
             paddingTopLeft: [t, 10],
@@ -14021,58 +14020,6 @@ function Chat() {
     }
 }
 
-function Dashboard() {
-    var t = this;
-    t.init = function() {
-        var e = $modal.initModal();
-        e.load(app.urls.dashboard, "", function() {
-            e.modal()
-        }), t.initEvents()
-    }, t.close = function() {
-        $("#dashboard .close").click()
-    }, t.loadBlockContent = function(t, e) {
-        e = e || !1;
-        var i = $("#dashboard_blocks").find($("#block_" + t)),
-            n = i.find(".dashboard-content");
-        $.ajax({
-            type: "GET",
-            dataType: "json",
-            url: app.urls.dashboardBlockContent,
-            beforeSend: function() {
-                e || loader.add(n)
-            },
-            data: {
-                name: t
-            },
-            success: function(t) {
-                0 != t.status ? n.html(t.html) : i.remove()
-            },
-            complete: function() {
-                loader.remove(n)
-            }
-        })
-    }, t.initEvents = function() {
-        $(document).on("change", "form.dashboard-config :input", function() {
-            var e = $(this).closest("form"),
-                i = e.serialize(),
-                n = e.find('input[name="block"]').val();
-            $.ajax({
-                type: "POST",
-                dataType: "json",
-                url: e.attr("action") + "?" + i,
-                beforeSend: function() {
-                    loader.add(e)
-                },
-                success: function(e) {
-                    t.loadBlockContent(n)
-                },
-                complete: function() {
-                    loader.remove(e)
-                }
-            })
-        })
-    }
-}
 $(window).on("load", function() {
         function t(t) {
             $(".dropdown-menu", t).css("top", "").css("left", "").css("bottom", "").css("right", "").css("margin", "").css("position", "")
