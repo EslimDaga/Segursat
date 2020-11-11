@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,latin-ext);
+@import url(https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap);
 /*! * Bootstrap v3.3.5 (http://getbootstrap.com) * Copyright 2011-2015 Twitter, Inc. * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE) */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 html{
@@ -218,7 +218,7 @@ html{
     -webkit-tap-highlight-color:transparent
 }
 body{
-    font-family:"Open Sans",sans-serif;
+    font-family:"Nunito",sans-serif;
     font-size:12px;
     line-height:1.42857;
     color:#202020;
@@ -2109,12 +2109,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
 .fade.in{
     opacity:1
 }
-.collapse{
-    display:none
-}
-.collapse.in{
-    display:block
-}
+
 tr.collapse.in{
     display:table-row
 }
@@ -4070,7 +4065,7 @@ button.close,button.ui-dialog-titlebar-close{
     position:absolute;
     z-index:1070;
     display:block;
-    font-family:"Open Sans",sans-serif;
+    font-family:"Nunito",sans-serif;
     font-style:normal;
     font-weight:400;
     letter-spacing:normal;
@@ -8884,9 +8879,6 @@ button.close,button.ui-dialog-titlebar-close{
 .fa-gavel:before,.fa-legal:before{
     content:""
 }
-.fa-dashboard:before,.fa-tachometer:before,.icon.dashboard:before{
-    content:""
-}
 .fa-comment-o:before{
     content:""
 }
@@ -13114,9 +13106,7 @@ img[data-src]{
     vertical-align:middle;
     margin-left:5px
 }
-.icon-fa:before,.icon.admin:before,.icon.calendar:before,.icon.call_action:before,.icon.chat:before,.icon.checklist:before,.icon.custom-field:before,.icon.dashboard:before,.icon.device-distance:before,.icon.email:before,.icon.eye:before,.icon.filter:before,.icon.globe:before,.icon.lock:before,.icon.logout:before,.icon.lookup:before,.icon.map-change:before,.icon.map-expand:before,.icon.money:before,.icon.multi-edit:before,.icon.pause:before,.icon.photo:before,.icon.play:before,.icon.pre-checklist:before,.icon.qrcode:before,.icon.reset:before,.icon.restart:before,.icon.send:before,.icon.sharing:before,.icon.stop:before,.icon.time:before,.icon.trash:before,.icon.unlock:before,.table.table-list td[data-editable-field]:hover:after{
-    font-family:FontAwesome
-}
+
 .btn-collapse i.ico-object-arrow,.group-heading>.ico-object-arrow.group-title:after,.ico-object-arrow.icon,.ico.ico-object-arrow,.table.table-list .ico-object-arrow.sorting:after,.table.table-list .ico-object-arrow.sorting:before,.table.table-list .ico-object-arrow.sorting_asc:after,.table.table-list .ico-object-arrow.sorting_asc:before,.table.table-list .ico-object-arrow.sorting_desc:after,.table.table-list .ico-object-arrow.sorting_desc:before{
     font-size:25px;
     text-shadow:0 0 2px #d9d9d9
@@ -13253,18 +13243,7 @@ img[data-src]{
         display:none
     }
 }
-#dashboard .dashboard-block #widgets .panel.widget .panel-body::-webkit-scrollbar,#dashboard .dashboard-block #widgets .panel.widget .plan .plan-body::-webkit-scrollbar,#dashboard .dashboard-block #widgets .panel.widget .widget-body::-webkit-scrollbar,#dashboard .dashboard-block #widgets .widget.plan .panel-body::-webkit-scrollbar,#dashboard .dashboard-block #widgets .widget.plan .plan-body::-webkit-scrollbar,#dashboard .dashboard-block #widgets .widget.plan .widget-body::-webkit-scrollbar,#dashboard .dashboard-block .panel.panel-default #widgets .widget-body::-webkit-scrollbar,#dashboard .dashboard-block .panel.panel-default .panel-body::-webkit-scrollbar,#dashboard .dashboard-block .panel.panel-default .plan .plan-body::-webkit-scrollbar,#dashboard .dashboard-block .plan #widgets .widget-body::-webkit-scrollbar,#dashboard .dashboard-block .plan .panel-body::-webkit-scrollbar,#dashboard .dashboard-block .plan .plan-body::-webkit-scrollbar,#sidebar-map .tab-pane-body::-webkit-scrollbar,#widgets #dashboard .dashboard-block .panel.panel-default .widget-body::-webkit-scrollbar,#widgets #dashboard .dashboard-block .panel.widget .panel-body::-webkit-scrollbar,#widgets #dashboard .dashboard-block .panel.widget .plan .plan-body::-webkit-scrollbar,#widgets #dashboard .dashboard-block .panel.widget .widget-body::-webkit-scrollbar,#widgets #dashboard .dashboard-block .plan .widget-body::-webkit-scrollbar,#widgets #dashboard .dashboard-block .widget.plan .panel-body::-webkit-scrollbar,#widgets #dashboard .dashboard-block .widget.plan .plan-body::-webkit-scrollbar,#widgets .widget-body::-webkit-scrollbar,#widgets .widgets-content::-webkit-scrollbar,.bootstrap-select.form-control.multiexpand .dropdown-menu.inner::-webkit-scrollbar,.bootstrap-select.form-control.multiexpand .leaflet-control-layers .inner.leaflet-control-layers-list::-webkit-scrollbar,.dropdown-menu::-webkit-scrollbar,.leaflet-control-layers .bootstrap-select.form-control.multiexpand .inner.leaflet-control-layers-list::-webkit-scrollbar,.leaflet-control-layers .leaflet-control-layers-list::-webkit-scrollbar,.messages::-webkit-scrollbar,.plan #dashboard .dashboard-block #widgets .panel.widget .plan-body::-webkit-scrollbar,.plan #dashboard .dashboard-block .panel.panel-default .plan-body::-webkit-scrollbar,.plan #widgets #dashboard .dashboard-block .panel.widget .plan-body::-webkit-scrollbar,.scrollbar::-webkit-scrollbar,.scrollbox-large::-webkit-scrollbar,.scrollbox-vertical-large::-webkit-scrollbar,.scrollbox-vertical::-webkit-scrollbar,.scrollbox::-webkit-scrollbar{
-    width:10px;
-    height:10px
-}
-#dashboard .dashboard-block #widgets .panel.widget .panel-body::-webkit-scrollbar-track,#dashboard .dashboard-block #widgets .panel.widget .plan .plan-body::-webkit-scrollbar-track,#dashboard .dashboard-block #widgets .panel.widget .widget-body::-webkit-scrollbar-track,#dashboard .dashboard-block #widgets .widget.plan .panel-body::-webkit-scrollbar-track,#dashboard .dashboard-block #widgets .widget.plan .plan-body::-webkit-scrollbar-track,#dashboard .dashboard-block #widgets .widget.plan .widget-body::-webkit-scrollbar-track,#dashboard .dashboard-block .panel.panel-default #widgets .widget-body::-webkit-scrollbar-track,#dashboard .dashboard-block .panel.panel-default .panel-body::-webkit-scrollbar-track,#dashboard .dashboard-block .panel.panel-default .plan .plan-body::-webkit-scrollbar-track,#dashboard .dashboard-block .plan #widgets .widget-body::-webkit-scrollbar-track,#dashboard .dashboard-block .plan .panel-body::-webkit-scrollbar-track,#dashboard .dashboard-block .plan .plan-body::-webkit-scrollbar-track,#sidebar-map .tab-pane-body::-webkit-scrollbar-track,#widgets #dashboard .dashboard-block .panel.panel-default .widget-body::-webkit-scrollbar-track,#widgets #dashboard .dashboard-block .panel.widget .panel-body::-webkit-scrollbar-track,#widgets #dashboard .dashboard-block .panel.widget .plan .plan-body::-webkit-scrollbar-track,#widgets #dashboard .dashboard-block .panel.widget .widget-body::-webkit-scrollbar-track,#widgets #dashboard .dashboard-block .plan .widget-body::-webkit-scrollbar-track,#widgets #dashboard .dashboard-block .widget.plan .panel-body::-webkit-scrollbar-track,#widgets #dashboard .dashboard-block .widget.plan .plan-body::-webkit-scrollbar-track,#widgets .widget-body::-webkit-scrollbar-track,#widgets .widgets-content::-webkit-scrollbar-track,.bootstrap-select.form-control.multiexpand .dropdown-menu.inner::-webkit-scrollbar-track,.bootstrap-select.form-control.multiexpand .leaflet-control-layers .inner.leaflet-control-layers-list::-webkit-scrollbar-track,.dropdown-menu::-webkit-scrollbar-track,.leaflet-control-layers .bootstrap-select.form-control.multiexpand .inner.leaflet-control-layers-list::-webkit-scrollbar-track,.leaflet-control-layers .leaflet-control-layers-list::-webkit-scrollbar-track,.messages::-webkit-scrollbar-track,.plan #dashboard .dashboard-block #widgets .panel.widget .plan-body::-webkit-scrollbar-track,.plan #dashboard .dashboard-block .panel.panel-default .plan-body::-webkit-scrollbar-track,.plan #widgets #dashboard .dashboard-block .panel.widget .plan-body::-webkit-scrollbar-track,.scrollbar::-webkit-scrollbar-track,.scrollbox-large::-webkit-scrollbar-track,.scrollbox-vertical-large::-webkit-scrollbar-track,.scrollbox-vertical::-webkit-scrollbar-track,.scrollbox::-webkit-scrollbar-track{
-    background:#f9f9f9;
-    border:1px solid #fff
-}
-#dashboard .dashboard-block #widgets .panel.widget .panel-body::-webkit-scrollbar-thumb,#dashboard .dashboard-block #widgets .panel.widget .plan .plan-body::-webkit-scrollbar-thumb,#dashboard .dashboard-block #widgets .panel.widget .widget-body::-webkit-scrollbar-thumb,#dashboard .dashboard-block #widgets .widget.plan .panel-body::-webkit-scrollbar-thumb,#dashboard .dashboard-block #widgets .widget.plan .plan-body::-webkit-scrollbar-thumb,#dashboard .dashboard-block #widgets .widget.plan .widget-body::-webkit-scrollbar-thumb,#dashboard .dashboard-block .panel.panel-default #widgets .widget-body::-webkit-scrollbar-thumb,#dashboard .dashboard-block .panel.panel-default .panel-body::-webkit-scrollbar-thumb,#dashboard .dashboard-block .panel.panel-default .plan .plan-body::-webkit-scrollbar-thumb,#dashboard .dashboard-block .plan #widgets .widget-body::-webkit-scrollbar-thumb,#dashboard .dashboard-block .plan .panel-body::-webkit-scrollbar-thumb,#dashboard .dashboard-block .plan .plan-body::-webkit-scrollbar-thumb,#sidebar-map .tab-pane-body::-webkit-scrollbar-thumb,#widgets #dashboard .dashboard-block .panel.panel-default .widget-body::-webkit-scrollbar-thumb,#widgets #dashboard .dashboard-block .panel.widget .panel-body::-webkit-scrollbar-thumb,#widgets #dashboard .dashboard-block .panel.widget .plan .plan-body::-webkit-scrollbar-thumb,#widgets #dashboard .dashboard-block .panel.widget .widget-body::-webkit-scrollbar-thumb,#widgets #dashboard .dashboard-block .plan .widget-body::-webkit-scrollbar-thumb,#widgets #dashboard .dashboard-block .widget.plan .panel-body::-webkit-scrollbar-thumb,#widgets #dashboard .dashboard-block .widget.plan .plan-body::-webkit-scrollbar-thumb,#widgets .widget-body::-webkit-scrollbar-thumb,#widgets .widgets-content::-webkit-scrollbar-thumb,.bootstrap-select.form-control.multiexpand .dropdown-menu.inner::-webkit-scrollbar-thumb,.bootstrap-select.form-control.multiexpand .leaflet-control-layers .inner.leaflet-control-layers-list::-webkit-scrollbar-thumb,.dropdown-menu::-webkit-scrollbar-thumb,.leaflet-control-layers .bootstrap-select.form-control.multiexpand .inner.leaflet-control-layers-list::-webkit-scrollbar-thumb,.leaflet-control-layers .leaflet-control-layers-list::-webkit-scrollbar-thumb,.messages::-webkit-scrollbar-thumb,.plan #dashboard .dashboard-block #widgets .panel.widget .plan-body::-webkit-scrollbar-thumb,.plan #dashboard .dashboard-block .panel.panel-default .plan-body::-webkit-scrollbar-thumb,.plan #widgets #dashboard .dashboard-block .panel.widget .plan-body::-webkit-scrollbar-thumb,.scrollbar::-webkit-scrollbar-thumb,.scrollbox-large::-webkit-scrollbar-thumb,.scrollbox-vertical-large::-webkit-scrollbar-thumb,.scrollbox-vertical::-webkit-scrollbar-thumb,.scrollbox::-webkit-scrollbar-thumb{
-    background:#ddd;
-    border:1px solid #fff
-}
+
 body{
     scrollbar-face-color:#f9f9f9;
     scrollbar-track-color:#ddd
@@ -14156,12 +14135,7 @@ textarea.form-control{
 .modal-popup .modal-body{
     padding:15px 45px
 }
-.dashboard .modal-content{
-    background-color:rgba(255,255,255,.7)
-}
-.dashboard .modal-header,.dashboard .ui-dialog-titlebar.ui-widget-header{
-    background-color:rgba(255,255,255,.7)
-}
+
 .table .table{
     background-color:#fff
 }
@@ -14980,73 +14954,7 @@ textarea.form-control{
         transform:rotate(360deg) scale(1)
     }
 }
-.loader{
-    display:block;
-    position:relative;
-    margin:auto;
-    height:35px;
-    width:35px
-}
-.loader:after,.loader:before{
-    -webkit-animation-fill-mode:both;
-    animation-fill-mode:both;
-    content:" ";
-    position:absolute;
-    left:0;
-    top:0;
-    border:2px solid #1b99bd;
-    border-bottom-color:transparent;
-    border-top-color:transparent;
-    border-radius:100%;
-    height:35px;
-    width:35px;
-    -webkit-animation:rotate 1s 0s ease-in-out infinite;
-    animation:rotate 1s 0s ease-in-out infinite
-}
-.loader:after{
-    display:inline-block;
-    top:10px;
-    left:10px;
-    width:15px;
-    height:15px;
-    -webkit-animation-duration:.5s;
-    animation-duration:.5s;
-    border-color:#1b99bd transparent;
-    -webkit-animation-direction:reverse;
-    animation-direction:reverse
-}
-.loader.large{
-    height:60px;
-    width:60px
-}
-.loader.large:before{
-    height:60px;
-    width:60px;
-    border-width:3px
-}
-.loader.large:after{
-    top:10px;
-    left:10px;
-    width:40px;
-    height:40px;
-    border-width:3px
-}
-.loader.small{
-    height:20px;
-    width:20px
-}
-.loader.small:before{
-    height:20px;
-    width:20px;
-    border-width:1px
-}
-.loader.small:after{
-    top:5px;
-    left:5px;
-    width:10px;
-    height:10px;
-    border-width:1px
-}
+
 body.sign-in-layout{
     background-repeat:no-repeat;
     background-position:center center;
@@ -15200,75 +15108,7 @@ body.sign-in-layout .app-links{
 .messages .message.me{
     text-align:right
 }
-#dashboard{
-    min-height:calc(100vh - 20px)
-}
-#dashboard .container{
-    width:90%
-}
-#dashboard .modal-content{
-    min-height:calc(100vh - 20px);
-    background:#ddd
-}
-#dashboard .dashboard-block.auto-height #widgets .panel.widget .panel-body,#dashboard .dashboard-block.auto-height #widgets .panel.widget .plan .plan-body,#dashboard .dashboard-block.auto-height #widgets .panel.widget .widget-body,#dashboard .dashboard-block.auto-height #widgets .widget.plan .panel-body,#dashboard .dashboard-block.auto-height #widgets .widget.plan .plan-body,#dashboard .dashboard-block.auto-height #widgets .widget.plan .widget-body,#dashboard .dashboard-block.auto-height .panel.panel-default #widgets .widget-body,#dashboard .dashboard-block.auto-height .panel.panel-default .panel-body,#dashboard .dashboard-block.auto-height .panel.panel-default .plan .plan-body,#dashboard .dashboard-block.auto-height .plan #widgets .widget-body,#dashboard .dashboard-block.auto-height .plan .panel-body,#dashboard .dashboard-block.auto-height .plan .plan-body,#widgets #dashboard .dashboard-block.auto-height .panel.panel-default .widget-body,#widgets #dashboard .dashboard-block.auto-height .panel.widget .panel-body,#widgets #dashboard .dashboard-block.auto-height .panel.widget .plan .plan-body,#widgets #dashboard .dashboard-block.auto-height .panel.widget .widget-body,#widgets #dashboard .dashboard-block.auto-height .plan .widget-body,#widgets #dashboard .dashboard-block.auto-height .widget.plan .panel-body,#widgets #dashboard .dashboard-block.auto-height .widget.plan .plan-body,.plan #dashboard .dashboard-block.auto-height #widgets .panel.widget .plan-body,.plan #dashboard .dashboard-block.auto-height .panel.panel-default .plan-body,.plan #widgets #dashboard .dashboard-block.auto-height .panel.widget .plan-body{
-    height:auto
-}
-#dashboard .dashboard-block #widgets .panel.widget,#dashboard .dashboard-block #widgets .widget.plan,#dashboard .dashboard-block .panel.panel-default,#dashboard .dashboard-block .plan,#widgets #dashboard .dashboard-block .panel.widget,#widgets #dashboard .dashboard-block .widget.plan{
-    border:0
-}
-#dashboard .dashboard-block #widgets .panel.widget .panel-heading,#dashboard .dashboard-block #widgets .panel.widget .plan .plan-heading,#dashboard .dashboard-block #widgets .panel.widget .widget-heading,#dashboard .dashboard-block #widgets .widget.plan .panel-heading,#dashboard .dashboard-block #widgets .widget.plan .plan-heading,#dashboard .dashboard-block #widgets .widget.plan .widget-heading,#dashboard .dashboard-block .panel.panel-default #widgets .widget-heading,#dashboard .dashboard-block .panel.panel-default .panel-heading,#dashboard .dashboard-block .panel.panel-default .plan .plan-heading,#dashboard .dashboard-block .plan #widgets .widget-heading,#dashboard .dashboard-block .plan .panel-heading,#dashboard .dashboard-block .plan .plan-heading,#widgets #dashboard .dashboard-block .panel.panel-default .widget-heading,#widgets #dashboard .dashboard-block .panel.widget .panel-heading,#widgets #dashboard .dashboard-block .panel.widget .plan .plan-heading,#widgets #dashboard .dashboard-block .panel.widget .widget-heading,#widgets #dashboard .dashboard-block .plan .widget-heading,#widgets #dashboard .dashboard-block .widget.plan .panel-heading,#widgets #dashboard .dashboard-block .widget.plan .plan-heading,.plan #dashboard .dashboard-block #widgets .panel.widget .plan-heading,.plan #dashboard .dashboard-block .panel.panel-default .plan-heading,.plan #widgets #dashboard .dashboard-block .panel.widget .plan-heading{
-    border:0
-}
-#dashboard .dashboard-block #widgets .panel.widget .panel-heading .panel-title,#dashboard .dashboard-block #widgets .panel.widget .panel-heading .plan .plan-title,#dashboard .dashboard-block #widgets .panel.widget .panel-heading .widget-title,#dashboard .dashboard-block #widgets .panel.widget .plan .plan-heading .panel-title,#dashboard .dashboard-block #widgets .panel.widget .plan .plan-heading .plan-title,#dashboard .dashboard-block #widgets .panel.widget .plan .plan-heading .widget-title,#dashboard .dashboard-block #widgets .panel.widget .widget-heading .panel-title,#dashboard .dashboard-block #widgets .panel.widget .widget-heading .plan .plan-title,#dashboard .dashboard-block #widgets .panel.widget .widget-heading .widget-title,#dashboard .dashboard-block #widgets .widget.plan .panel-heading .panel-title,#dashboard .dashboard-block #widgets .widget.plan .panel-heading .plan-title,#dashboard .dashboard-block #widgets .widget.plan .panel-heading .widget-title,#dashboard .dashboard-block #widgets .widget.plan .plan-heading .panel-title,#dashboard .dashboard-block #widgets .widget.plan .plan-heading .plan-title,#dashboard .dashboard-block #widgets .widget.plan .plan-heading .widget-title,#dashboard .dashboard-block #widgets .widget.plan .widget-heading .panel-title,#dashboard .dashboard-block #widgets .widget.plan .widget-heading .plan-title,#dashboard .dashboard-block #widgets .widget.plan .widget-heading .widget-title,#dashboard .dashboard-block .panel.panel-default #widgets .widget-heading .panel-title,#dashboard .dashboard-block .panel.panel-default #widgets .widget-heading .plan .plan-title,#dashboard .dashboard-block .panel.panel-default #widgets .widget-heading .widget-title,#dashboard .dashboard-block .panel.panel-default .panel-heading #widgets .widget-title,#dashboard .dashboard-block .panel.panel-default .panel-heading .panel-title,#dashboard .dashboard-block .panel.panel-default .panel-heading .plan .plan-title,#dashboard .dashboard-block .panel.panel-default .plan .plan-heading .panel-title,#dashboard .dashboard-block .panel.panel-default .plan .plan-heading .plan-title,#dashboard .dashboard-block .plan #widgets .widget-heading .panel-title,#dashboard .dashboard-block .plan #widgets .widget-heading .plan-title,#dashboard .dashboard-block .plan #widgets .widget-heading .widget-title,#dashboard .dashboard-block .plan .panel-heading #widgets .widget-title,#dashboard .dashboard-block .plan .panel-heading .panel-title,#dashboard .dashboard-block .plan .panel-heading .plan-title,#dashboard .dashboard-block .plan .plan-heading #widgets .widget-title,#dashboard .dashboard-block .plan .plan-heading .panel-title,#dashboard .dashboard-block .plan .plan-heading .plan-title,#widgets #dashboard .dashboard-block .panel.panel-default .panel-heading .widget-title,#widgets #dashboard .dashboard-block .panel.panel-default .widget-heading .panel-title,#widgets #dashboard .dashboard-block .panel.panel-default .widget-heading .plan .plan-title,#widgets #dashboard .dashboard-block .panel.panel-default .widget-heading .widget-title,#widgets #dashboard .dashboard-block .panel.widget .panel-heading .panel-title,#widgets #dashboard .dashboard-block .panel.widget .panel-heading .plan .plan-title,#widgets #dashboard .dashboard-block .panel.widget .panel-heading .widget-title,#widgets #dashboard .dashboard-block .panel.widget .plan .plan-heading .panel-title,#widgets #dashboard .dashboard-block .panel.widget .plan .plan-heading .plan-title,#widgets #dashboard .dashboard-block .panel.widget .widget-heading .panel-title,#widgets #dashboard .dashboard-block .panel.widget .widget-heading .plan .plan-title,#widgets #dashboard .dashboard-block .panel.widget .widget-heading .widget-title,#widgets #dashboard .dashboard-block .plan .panel-heading .widget-title,#widgets #dashboard .dashboard-block .plan .plan-heading .widget-title,#widgets #dashboard .dashboard-block .plan .widget-heading .panel-title,#widgets #dashboard .dashboard-block .plan .widget-heading .plan-title,#widgets #dashboard .dashboard-block .plan .widget-heading .widget-title,#widgets #dashboard .dashboard-block .widget.plan .panel-heading .panel-title,#widgets #dashboard .dashboard-block .widget.plan .panel-heading .plan-title,#widgets #dashboard .dashboard-block .widget.plan .plan-heading .panel-title,#widgets #dashboard .dashboard-block .widget.plan .plan-heading .plan-title,#widgets .plan #dashboard .dashboard-block .panel.panel-default .plan-heading .widget-title,.plan #dashboard .dashboard-block #widgets .panel.widget .panel-heading .plan-title,.plan #dashboard .dashboard-block #widgets .panel.widget .plan-heading .panel-title,.plan #dashboard .dashboard-block #widgets .panel.widget .plan-heading .plan-title,.plan #dashboard .dashboard-block #widgets .panel.widget .plan-heading .widget-title,.plan #dashboard .dashboard-block #widgets .panel.widget .widget-heading .plan-title,.plan #dashboard .dashboard-block .panel.panel-default #widgets .widget-heading .plan-title,.plan #dashboard .dashboard-block .panel.panel-default .panel-heading .plan-title,.plan #dashboard .dashboard-block .panel.panel-default .plan-heading #widgets .widget-title,.plan #dashboard .dashboard-block .panel.panel-default .plan-heading .panel-title,.plan #dashboard .dashboard-block .panel.panel-default .plan-heading .plan-title,.plan #widgets #dashboard .dashboard-block .panel.panel-default .widget-heading .plan-title,.plan #widgets #dashboard .dashboard-block .panel.widget .panel-heading .plan-title,.plan #widgets #dashboard .dashboard-block .panel.widget .plan-heading .panel-title,.plan #widgets #dashboard .dashboard-block .panel.widget .plan-heading .plan-title,.plan #widgets #dashboard .dashboard-block .panel.widget .plan-heading .widget-title,.plan #widgets #dashboard .dashboard-block .panel.widget .widget-heading .plan-title{
-    float:none
-}
-#dashboard .dashboard-block #widgets .panel.widget .panel-body,#dashboard .dashboard-block #widgets .panel.widget .plan .plan-body,#dashboard .dashboard-block #widgets .panel.widget .widget-body,#dashboard .dashboard-block #widgets .widget.plan .panel-body,#dashboard .dashboard-block #widgets .widget.plan .plan-body,#dashboard .dashboard-block #widgets .widget.plan .widget-body,#dashboard .dashboard-block .panel.panel-default #widgets .widget-body,#dashboard .dashboard-block .panel.panel-default .panel-body,#dashboard .dashboard-block .panel.panel-default .plan .plan-body,#dashboard .dashboard-block .plan #widgets .widget-body,#dashboard .dashboard-block .plan .panel-body,#dashboard .dashboard-block .plan .plan-body,#widgets #dashboard .dashboard-block .panel.panel-default .widget-body,#widgets #dashboard .dashboard-block .panel.widget .panel-body,#widgets #dashboard .dashboard-block .panel.widget .plan .plan-body,#widgets #dashboard .dashboard-block .panel.widget .widget-body,#widgets #dashboard .dashboard-block .plan .widget-body,#widgets #dashboard .dashboard-block .widget.plan .panel-body,#widgets #dashboard .dashboard-block .widget.plan .plan-body,.plan #dashboard .dashboard-block #widgets .panel.widget .plan-body,.plan #dashboard .dashboard-block .panel.panel-default .plan-body,.plan #widgets #dashboard .dashboard-block .panel.widget .plan-body{
-    height:340px;
-    overflow:auto
-}
-#dashboard .dashboard-block table .legendColorBox{
-    padding:5px
-}
-#dashboard .dashboard-block table .legendLabel{
-    padding:5px;
-    font-size:12px!important;
-    font-weight:700
-}
-#dashboard .dashboard-block .stat-box{
-    display:block;
-    padding:15px;
-    margin-bottom:17px;
-    border:1px solid transparent;
-    border-radius:0;
-    color:#202020;
-    text-align:center
-}
-#dashboard .dashboard-block .stat-box .count{
-    font-weight:700;
-    font-size:larger
-}
-#dashboard .dashboard-block .stat-box .link{
-    text-decoration:underline;
-    cursor:pointer
-}
-#dashboard .dashboard-block .stat-box .link a{
-    color:#202020
-}
-#block_device_overview #widgets .panel-transparent>.widget-body,#block_device_overview .panel-transparent>.panel-body,#block_device_overview .plan .panel-transparent>.plan-body,#widgets #block_device_overview .panel-transparent>.widget-body,.plan #block_device_overview .panel-transparent>.plan-body{
-    padding-top:0
-}
-#dashboard .options-dropdown,#setup-form-dashboard .options-dropdown{
-    margin:0 15px 0 15px
-}
-#dashboard .options-dropdown hr,#setup-form-dashboard .options-dropdown hr{
-    margin-top:0
-}
-#setup-form-dashboard .dashboard-widget{
-    background:#eee;
-    padding:10px 5px 8px 10px;
-    margin-bottom:10px;
-    height:38px
-}
+
 .bootstrap-select.hide-picker{
     height:0
 }
