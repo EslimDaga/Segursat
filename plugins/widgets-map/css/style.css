@@ -10,7 +10,7 @@ html{
 body{
     margin:0
 }
-article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{
+article,aside,details,figcaption,figure,footer,hgroup,main,menu,nav,section,summary{
     display:block
 }
 audio,canvas,progress,video{
@@ -183,9 +183,6 @@ td,th{
     }
     h2,h3{
         page-break-after:avoid
-    }
-    .navbar{
-        display:none
     }
     .btn>.caret,.dropup>.btn>.caret{
         border-top-color:#000!important
@@ -452,11 +449,6 @@ a.bg-warning:focus,a.bg-warning:hover{
 a.bg-danger:focus,a.bg-danger:hover{
     background-color:#e4b9b9
 }
-.page-header{
-    padding-bottom:7.5px;
-    margin:34px 0 17px;
-    border-bottom:1px solid #f9f9f9
-}
 ol,ul{
     margin-top:0;
     margin-bottom:8.5px
@@ -607,12 +599,7 @@ address{
 .checkboxes:after,.plans:after,.row:after{
     clear:both
 }
-.bootstrap-select.form-control .dropdown-menu.inner>li,.bootstrap-select.form-control .dropdown-menu.inner>li[data-original-index][data-optgroup],.bootstrap-select.form-control .leaflet-control-layers .inner.leaflet-control-layers-list>li,.bootstrap-select.form-control .leaflet-control-layers .inner.leaflet-control-layers-list>li[data-original-index][data-optgroup],.bootstrap-select.form-control.multiexpand .dropdown-menu.inner>li,.bootstrap-select.form-control.multiexpand .dropdown-menu.inner>li[data-original-index],.bootstrap-select.form-control.multiexpand .dropdown-menu.inner>li[data-original-index][data-optgroup],.bootstrap-select.form-control.multiexpand .leaflet-control-layers .inner.leaflet-control-layers-list>li,.bootstrap-select.form-control.multiexpand .leaflet-control-layers .inner.leaflet-control-layers-list>li[data-original-index],.bootstrap-select.form-control.multiexpand.full .dropdown-menu.inner li[data-original-index],.bootstrap-select.form-control.multiexpand.full .leaflet-control-layers .inner.leaflet-control-layers-list li[data-original-index],.bootstrap-select.form-control.multiexpand.half .dropdown-menu.inner li[data-original-index],.bootstrap-select.form-control.multiexpand.half .leaflet-control-layers .inner.leaflet-control-layers-list li[data-original-index],.checkboxes .checkbox,.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.lang-list .lang-item,.leaflet-control-layers .bootstrap-select.form-control .inner.leaflet-control-layers-list>li,.leaflet-control-layers .bootstrap-select.form-control .inner.leaflet-control-layers-list>li[data-original-index][data-optgroup],.leaflet-control-layers .bootstrap-select.form-control.multiexpand .inner.leaflet-control-layers-list>li,.leaflet-control-layers .bootstrap-select.form-control.multiexpand .inner.leaflet-control-layers-list>li[data-original-index],.leaflet-control-layers .bootstrap-select.form-control.multiexpand.full .inner.leaflet-control-layers-list li[data-original-index],.leaflet-control-layers .bootstrap-select.form-control.multiexpand.half .inner.leaflet-control-layers-list li[data-original-index],.plan-col,.table-icon .item{
-    position:relative;
-    min-height:1px;
-    padding-left:15px;
-    padding-right:15px
-}
+
 .checkboxes .checkbox,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.lang-list .lang-item,.plan-col,.table-icon .item{
     float:left
 }
@@ -769,46 +756,7 @@ address{
 .col-xs-offset-12{
     margin-left:100%
 }
-@media (min-width:768px){
-    .bootstrap-select.form-control .dropdown-menu.inner>li,.bootstrap-select.form-control .dropdown-menu.inner>li[data-original-index][data-optgroup],.bootstrap-select.form-control .leaflet-control-layers .inner.leaflet-control-layers-list>li,.bootstrap-select.form-control .leaflet-control-layers .inner.leaflet-control-layers-list>li[data-original-index][data-optgroup],.bootstrap-select.form-control.multiexpand .dropdown-menu.inner>li,.bootstrap-select.form-control.multiexpand .dropdown-menu.inner>li[data-original-index],.bootstrap-select.form-control.multiexpand .dropdown-menu.inner>li[data-original-index][data-optgroup],.bootstrap-select.form-control.multiexpand .leaflet-control-layers .inner.leaflet-control-layers-list>li,.bootstrap-select.form-control.multiexpand .leaflet-control-layers .inner.leaflet-control-layers-list>li[data-original-index],.bootstrap-select.form-control.multiexpand.full .dropdown-menu.inner li[data-original-index],.bootstrap-select.form-control.multiexpand.full .leaflet-control-layers .inner.leaflet-control-layers-list li[data-original-index],.bootstrap-select.form-control.multiexpand.half .dropdown-menu.inner li[data-original-index],.bootstrap-select.form-control.multiexpand.half .leaflet-control-layers .inner.leaflet-control-layers-list li[data-original-index],.checkboxes .checkbox,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.lang-list .lang-item,.leaflet-control-layers .bootstrap-select.form-control .inner.leaflet-control-layers-list>li,.leaflet-control-layers .bootstrap-select.form-control .inner.leaflet-control-layers-list>li[data-original-index][data-optgroup],.leaflet-control-layers .bootstrap-select.form-control.multiexpand .inner.leaflet-control-layers-list>li,.leaflet-control-layers .bootstrap-select.form-control.multiexpand .inner.leaflet-control-layers-list>li[data-original-index],.leaflet-control-layers .bootstrap-select.form-control.multiexpand.full .inner.leaflet-control-layers-list li[data-original-index],.leaflet-control-layers .bootstrap-select.form-control.multiexpand.half .inner.leaflet-control-layers-list li[data-original-index],.plan-col,.table-icon .item{
-        float:left
-    }
-    .col-sm-1{
-        width:8.33333%
-    }
-    .col-sm-2,.table-icon .item{
-        width:16.66667%
-    }
-    .col-sm-3{
-        width:25%
-    }
-    .bootstrap-select.form-control.multiexpand .dropdown-menu.inner>li[data-original-index],.bootstrap-select.form-control.multiexpand .dropdown-menu.inner>li[data-original-index][data-optgroup],.bootstrap-select.form-control.multiexpand .leaflet-control-layers .inner.leaflet-control-layers-list>li[data-original-index],.col-sm-4,.lang-list .lang-item,.leaflet-control-layers .bootstrap-select.form-control.multiexpand .inner.leaflet-control-layers-list>li[data-original-index],.plan-col{
-        width:33.33333%
-    }
-    .col-sm-5{
-        width:41.66667%
-    }
-    .bootstrap-select.form-control.multiexpand.half .dropdown-menu.inner li[data-original-index],.bootstrap-select.form-control.multiexpand.half .leaflet-control-layers .inner.leaflet-control-layers-list li[data-original-index],.checkboxes .checkbox,.col-sm-6,.leaflet-control-layers .bootstrap-select.form-control.multiexpand.half .inner.leaflet-control-layers-list li[data-original-index]{
-        width:50%
-    }
-    .col-sm-7{
-        width:58.33333%
-    }
-    .col-sm-8{
-        width:66.66667%
-    }
-    .col-sm-9{
-        width:75%
-    }
-    .col-sm-10{
-        width:83.33333%
-    }
-    .col-sm-11{
-        width:91.66667%
-    }
-    .bootstrap-select.form-control .dropdown-menu.inner>li,.bootstrap-select.form-control .dropdown-menu.inner>li[data-original-index][data-optgroup],.bootstrap-select.form-control .leaflet-control-layers .inner.leaflet-control-layers-list>li,.bootstrap-select.form-control .leaflet-control-layers .inner.leaflet-control-layers-list>li[data-original-index][data-optgroup],.bootstrap-select.form-control.multiexpand .dropdown-menu.inner>li,.bootstrap-select.form-control.multiexpand .leaflet-control-layers .inner.leaflet-control-layers-list>li,.bootstrap-select.form-control.multiexpand.full .dropdown-menu.inner li[data-original-index],.bootstrap-select.form-control.multiexpand.full .leaflet-control-layers .inner.leaflet-control-layers-list li[data-original-index],.col-sm-12,.leaflet-control-layers .bootstrap-select.form-control .inner.leaflet-control-layers-list>li,.leaflet-control-layers .bootstrap-select.form-control .inner.leaflet-control-layers-list>li[data-original-index][data-optgroup],.leaflet-control-layers .bootstrap-select.form-control.multiexpand .inner.leaflet-control-layers-list>li,.leaflet-control-layers .bootstrap-select.form-control.multiexpand.full .inner.leaflet-control-layers-list li[data-original-index]{
-        width:100%
-    }
+
     .col-sm-pull-0{
         right:auto
     }
@@ -1849,19 +1797,6 @@ a.btn.disabled,fieldset[disabled] a.btn{
     background-color:#d5d5d5;
     border-color:#cfcfcf
 }
-.btn-default.active,.btn-default:active,.open>.btn-default.dropdown-toggle{
-    color:#777;
-    background-color:#d5d5d5;
-    border-color:#cfcfcf
-}
-.btn-default.active.focus,.btn-default.active:focus,.btn-default.active:hover,.btn-default:active.focus,.btn-default:active:focus,.btn-default:active:hover,.open>.btn-default.dropdown-toggle.focus,.open>.btn-default.dropdown-toggle:focus,.open>.btn-default.dropdown-toggle:hover{
-    color:#777;
-    background-color:#c3c3c3;
-    border-color:#aeaeae
-}
-.btn-default.active,.btn-default:active,.open>.btn-default.dropdown-toggle{
-    background-image:none
-}
 .btn-default.disabled,.btn-default.disabled.active,.btn-default.disabled.focus,.btn-default.disabled:active,.btn-default.disabled:focus,.btn-default.disabled:hover,.btn-default[disabled],.btn-default[disabled].active,.btn-default[disabled].focus,.btn-default[disabled]:active,.btn-default[disabled]:focus,.btn-default[disabled]:hover,fieldset[disabled] .btn-default,fieldset[disabled] .btn-default.active,fieldset[disabled] .btn-default.focus,fieldset[disabled] .btn-default:active,fieldset[disabled] .btn-default:focus,fieldset[disabled] .btn-default:hover{
     background-color:#eee;
     border-color:#eee
@@ -1881,19 +1816,6 @@ a.btn.disabled,fieldset[disabled] a.btn{
     color:#fff;
     background-color:#157590;
     border-color:#105c71
-}
-.active.btn-action,.btn-action:active,.btn-primary.active,.btn-primary:active,.open>.btn-primary.dropdown-toggle,.open>.dropdown-toggle.btn-action{
-    color:#fff;
-    background-color:#157590;
-    border-color:#105c71
-}
-.active.btn-action:focus,.active.btn-action:hover,.active.focus.btn-action,.btn-action:active.focus,.btn-action:active:focus,.btn-action:active:hover,.btn-primary.active.focus,.btn-primary.active:focus,.btn-primary.active:hover,.btn-primary:active.focus,.btn-primary:active:focus,.btn-primary:active:hover,.open>.btn-primary.dropdown-toggle.focus,.open>.btn-primary.dropdown-toggle:focus,.open>.btn-primary.dropdown-toggle:hover,.open>.dropdown-toggle.btn-action:focus,.open>.dropdown-toggle.btn-action:hover,.open>.dropdown-toggle.focus.btn-action{
-    color:#fff;
-    background-color:#105c71;
-    border-color:#082d37
-}
-.active.btn-action,.btn-action:active,.btn-primary.active,.btn-primary:active,.open>.btn-primary.dropdown-toggle,.open>.dropdown-toggle.btn-action{
-    background-image:none
 }
 .btn-action[disabled],.btn-action[disabled].active,.btn-action[disabled].focus,.btn-action[disabled]:active,.btn-action[disabled]:focus,.btn-action[disabled]:hover,.btn-primary.disabled,.btn-primary.disabled.active,.btn-primary.disabled.focus,.btn-primary.disabled:active,.btn-primary.disabled:focus,.btn-primary.disabled:hover,.btn-primary[disabled],.btn-primary[disabled].active,.btn-primary[disabled].focus,.btn-primary[disabled]:active,.btn-primary[disabled]:focus,.btn-primary[disabled]:hover,.disabled.active.btn-action,.disabled.btn-action,.disabled.btn-action:active,.disabled.btn-action:focus,.disabled.btn-action:hover,.disabled.focus.btn-action,fieldset[disabled] .active.btn-action,fieldset[disabled] .btn-action,fieldset[disabled] .btn-action:active,fieldset[disabled] .btn-action:focus,fieldset[disabled] .btn-action:hover,fieldset[disabled] .btn-primary,fieldset[disabled] .btn-primary.active,fieldset[disabled] .btn-primary.focus,fieldset[disabled] .btn-primary:active,fieldset[disabled] .btn-primary:focus,fieldset[disabled] .btn-primary:hover,fieldset[disabled] .focus.btn-action{
     background-color:#1b99bd;
@@ -1915,19 +1837,6 @@ a.btn.disabled,fieldset[disabled] a.btn{
     background-color:#449d44;
     border-color:#398439
 }
-.btn-success.active,.btn-success:active,.open>.btn-success.dropdown-toggle{
-    color:#fff;
-    background-color:#449d44;
-    border-color:#398439
-}
-.btn-success.active.focus,.btn-success.active:focus,.btn-success.active:hover,.btn-success:active.focus,.btn-success:active:focus,.btn-success:active:hover,.open>.btn-success.dropdown-toggle.focus,.open>.btn-success.dropdown-toggle:focus,.open>.btn-success.dropdown-toggle:hover{
-    color:#fff;
-    background-color:#398439;
-    border-color:#255625
-}
-.btn-success.active,.btn-success:active,.open>.btn-success.dropdown-toggle{
-    background-image:none
-}
 .btn-success.disabled,.btn-success.disabled.active,.btn-success.disabled.focus,.btn-success.disabled:active,.btn-success.disabled:focus,.btn-success.disabled:hover,.btn-success[disabled],.btn-success[disabled].active,.btn-success[disabled].focus,.btn-success[disabled]:active,.btn-success[disabled]:focus,.btn-success[disabled]:hover,fieldset[disabled] .btn-success,fieldset[disabled] .btn-success.active,fieldset[disabled] .btn-success.focus,fieldset[disabled] .btn-success:active,fieldset[disabled] .btn-success:focus,fieldset[disabled] .btn-success:hover{
     background-color:#5cb85c;
     border-color:#4cae4c
@@ -1947,19 +1856,6 @@ a.btn.disabled,fieldset[disabled] a.btn{
     color:#fff;
     background-color:#31b0d5;
     border-color:#269abc
-}
-.btn-info.active,.btn-info:active,.open>.btn-info.dropdown-toggle{
-    color:#fff;
-    background-color:#31b0d5;
-    border-color:#269abc
-}
-.btn-info.active.focus,.btn-info.active:focus,.btn-info.active:hover,.btn-info:active.focus,.btn-info:active:focus,.btn-info:active:hover,.open>.btn-info.dropdown-toggle.focus,.open>.btn-info.dropdown-toggle:focus,.open>.btn-info.dropdown-toggle:hover{
-    color:#fff;
-    background-color:#269abc;
-    border-color:#1b6d85
-}
-.btn-info.active,.btn-info:active,.open>.btn-info.dropdown-toggle{
-    background-image:none
 }
 .btn-info.disabled,.btn-info.disabled.active,.btn-info.disabled.focus,.btn-info.disabled:active,.btn-info.disabled:focus,.btn-info.disabled:hover,.btn-info[disabled],.btn-info[disabled].active,.btn-info[disabled].focus,.btn-info[disabled]:active,.btn-info[disabled]:focus,.btn-info[disabled]:hover,fieldset[disabled] .btn-info,fieldset[disabled] .btn-info.active,fieldset[disabled] .btn-info.focus,fieldset[disabled] .btn-info:active,fieldset[disabled] .btn-info:focus,fieldset[disabled] .btn-info:hover{
     background-color:#5bc0de;
@@ -1981,19 +1877,6 @@ a.btn.disabled,fieldset[disabled] a.btn{
     background-color:#ec971f;
     border-color:#d58512
 }
-.btn-warning.active,.btn-warning:active,.open>.btn-warning.dropdown-toggle{
-    color:#fff;
-    background-color:#ec971f;
-    border-color:#d58512
-}
-.btn-warning.active.focus,.btn-warning.active:focus,.btn-warning.active:hover,.btn-warning:active.focus,.btn-warning:active:focus,.btn-warning:active:hover,.open>.btn-warning.dropdown-toggle.focus,.open>.btn-warning.dropdown-toggle:focus,.open>.btn-warning.dropdown-toggle:hover{
-    color:#fff;
-    background-color:#d58512;
-    border-color:#985f0d
-}
-.btn-warning.active,.btn-warning:active,.open>.btn-warning.dropdown-toggle{
-    background-image:none
-}
 .btn-warning.disabled,.btn-warning.disabled.active,.btn-warning.disabled.focus,.btn-warning.disabled:active,.btn-warning.disabled:focus,.btn-warning.disabled:hover,.btn-warning[disabled],.btn-warning[disabled].active,.btn-warning[disabled].focus,.btn-warning[disabled]:active,.btn-warning[disabled]:focus,.btn-warning[disabled]:hover,fieldset[disabled] .btn-warning,fieldset[disabled] .btn-warning.active,fieldset[disabled] .btn-warning.focus,fieldset[disabled] .btn-warning:active,fieldset[disabled] .btn-warning:focus,fieldset[disabled] .btn-warning:hover{
     background-color:#f0ad4e;
     border-color:#eea236
@@ -2014,19 +1897,7 @@ a.btn.disabled,fieldset[disabled] a.btn{
     background-color:#c9302c;
     border-color:#ac2925
 }
-.btn-danger.active,.btn-danger:active,.open>.btn-danger.dropdown-toggle{
-    color:#fff;
-    background-color:#c9302c;
-    border-color:#ac2925
-}
-.btn-danger.active.focus,.btn-danger.active:focus,.btn-danger.active:hover,.btn-danger:active.focus,.btn-danger:active:focus,.btn-danger:active:hover,.open>.btn-danger.dropdown-toggle.focus,.open>.btn-danger.dropdown-toggle:focus,.open>.btn-danger.dropdown-toggle:hover{
-    color:#fff;
-    background-color:#ac2925;
-    border-color:#761c19
-}
-.btn-danger.active,.btn-danger:active,.open>.btn-danger.dropdown-toggle{
-    background-image:none
-}
+
 .btn-danger.disabled,.btn-danger.disabled.active,.btn-danger.disabled.focus,.btn-danger.disabled:active,.btn-danger.disabled:focus,.btn-danger.disabled:hover,.btn-danger[disabled],.btn-danger[disabled].active,.btn-danger[disabled].focus,.btn-danger[disabled]:active,.btn-danger[disabled]:focus,.btn-danger[disabled]:hover,fieldset[disabled] .btn-danger,fieldset[disabled] .btn-danger.active,fieldset[disabled] .btn-danger.focus,fieldset[disabled] .btn-danger:active,fieldset[disabled] .btn-danger:focus,fieldset[disabled] .btn-danger:hover{
     background-color:#d9534f;
     border-color:#d43f3a
@@ -2145,79 +2016,6 @@ tbody.collapse.in{
     -webkit-box-shadow:0 6px 12px rgba(0,0,0,.175);
     box-shadow:0 6px 12px rgba(0,0,0,.175);
     background-clip:padding-box
-}
-.dropdown-menu.pull-right,.leaflet-control-layers .nav-pagination .leaflet-control-layers-list.pagination,.leaflet-control-layers .pull-right.leaflet-control-layers-list,.nav-pagination .dropdown-menu.pagination,.nav-pagination .leaflet-control-layers .leaflet-control-layers-list.pagination{
-    right:0;
-    left:auto
-}
-.dropdown-menu .divider,.leaflet-control-layers .leaflet-control-layers-list .divider{
-    height:1px;
-    margin:7.5px 0;
-    overflow:hidden;
-    background-color:#d9d9d9
-}
-.dropdown-menu>li>a,.leaflet-control-layers .leaflet-control-layers-list>li>a{
-    display:block;
-    padding:6px 13px;
-    clear:both;
-    font-weight:400;
-    line-height:1.42857;
-    color:#777;
-    white-space:nowrap
-}
-.dropdown-menu>li>a:focus,.dropdown-menu>li>a:hover,.leaflet-control-layers .leaflet-control-layers-list>li>a:focus,.leaflet-control-layers .leaflet-control-layers-list>li>a:hover{
-    text-decoration:none;
-    color:#777;
-    background-color:#f9f9f9
-}
-.dropdown-menu>.active>a,.dropdown-menu>.active>a:focus,.dropdown-menu>.active>a:hover,.leaflet-control-layers .leaflet-control-layers-list>.active>a,.leaflet-control-layers .leaflet-control-layers-list>.active>a:focus,.leaflet-control-layers .leaflet-control-layers-list>.active>a:hover{
-    color:#777;
-    text-decoration:none;
-    outline:0;
-    background-color:#f9f9f9
-}
-.dropdown-menu>.disabled>a,.dropdown-menu>.disabled>a:focus,.dropdown-menu>.disabled>a:hover,.leaflet-control-layers .leaflet-control-layers-list>.disabled>a,.leaflet-control-layers .leaflet-control-layers-list>.disabled>a:focus,.leaflet-control-layers .leaflet-control-layers-list>.disabled>a:hover{
-    color:#aaa
-}
-.dropdown-menu>.disabled>a:focus,.dropdown-menu>.disabled>a:hover,.leaflet-control-layers .leaflet-control-layers-list>.disabled>a:focus,.leaflet-control-layers .leaflet-control-layers-list>.disabled>a:hover{
-    text-decoration:none;
-    background-color:transparent;
-    background-image:none;
-    cursor:not-allowed
-}
-.leaflet-control-layers .open>.leaflet-control-layers-list,.open>.dropdown-menu{
-    display:block
-}
-.open>a{
-    outline:0
-}
-.dropdown-menu-right{
-    left:auto;
-    right:0
-}
-.dropdown-menu-left{
-    left:0;
-    right:auto
-}
-.dropdown-header{
-    display:block;
-    padding:3px 20px;
-    font-size:11px;
-    line-height:1.42857;
-    color:#777;
-    white-space:nowrap
-}
-.dropdown-backdrop{
-    position:fixed;
-    left:0;
-    right:0;
-    bottom:0;
-    top:0;
-    z-index:990
-}
-.leaflet-control-layers .nav-pagination .pagination>.leaflet-control-layers-list,.leaflet-control-layers .pull-right>.leaflet-control-layers-list,.nav-pagination .leaflet-control-layers .pagination>.leaflet-control-layers-list,.nav-pagination .pagination>.dropdown-menu,.pull-right>.dropdown-menu{
-    right:0;
-    left:auto
 }
 
 .btn-group,.btn-group-vertical{
@@ -3463,14 +3261,6 @@ button.close,button.ui-dialog-titlebar-close{
 .modal-backdrop.in{
     opacity:.5
 }
-.modal-header,.ui-dialog-titlebar.ui-widget-header{
-    padding:15px;
-    border-bottom:1px solid transparent;
-    min-height:16.42857px
-}
-.modal-header .close,.modal-header button.ui-dialog-titlebar-close,.ui-dialog-titlebar.ui-widget-header .close,.ui-dialog-titlebar.ui-widget-header button.ui-dialog-titlebar-close{
-    margin-top:-2px
-}
 .modal-title,.ui-dialog-title{
     margin:0;
     line-height:1.42857
@@ -4043,43 +3833,13 @@ button.close,button.ui-dialog-titlebar-close{
 .ui-widget-content a{
     color:#333
 }
-.ui-widget-header{
-    border:1px solid #ddd;
-    background:#e9e9e9;
-    color:#333;
-    font-weight:700
-}
-.ui-widget-header a{
-    color:#333
-}
-.ui-button,.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default,html .ui-button.ui-state-disabled:active,html .ui-button.ui-state-disabled:hover{
-    border:1px solid #c5c5c5;
-    background:#f6f6f6;
-    font-weight:400;
-    color:#454545
-}
-.ui-button,.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited,a.ui-button,a:link.ui-button,a:visited.ui-button{
-    color:#454545;
-    text-decoration:none
-}
-.ui-button:focus,.ui-button:hover,.ui-state-focus,.ui-state-hover,.ui-widget-content .ui-state-focus,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-focus,.ui-widget-header .ui-state-hover{
-    border:1px solid #ccc;
-    background:#ededed;
-    font-weight:400;
-    color:#2b2b2b
-}
+
 .ui-state-focus a,.ui-state-focus a:hover,.ui-state-focus a:link,.ui-state-focus a:visited,.ui-state-hover a,.ui-state-hover a:hover,.ui-state-hover a:link,.ui-state-hover a:visited,a.ui-button:focus,a.ui-button:hover{
     color:#2b2b2b;
     text-decoration:none
 }
 .ui-visual-focus{
     box-shadow:0 0 3px 1px #5e9ed6
-}
-.ui-button.ui-state-active:hover,.ui-button:active,.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active,a.ui-button:active{
-    border:1px solid #003eff;
-    background:#007fff;
-    font-weight:400;
-    color:#fff
 }
 .ui-icon-background,.ui-state-active .ui-icon-background{
     border:#003eff;
@@ -4089,42 +3849,11 @@ button.close,button.ui-dialog-titlebar-close{
     color:#fff;
     text-decoration:none
 }
-.ui-state-highlight,.ui-widget-content .ui-state-highlight,.ui-widget-header .ui-state-highlight{
-    border:1px solid #dad55e;
-    background:#fffa90;
-    color:#777620
-}
 .ui-state-checked{
     border:1px solid #dad55e;
     background:#fffa90
 }
-.ui-state-highlight a,.ui-widget-content .ui-state-highlight a,.ui-widget-header .ui-state-highlight a{
-    color:#777620
-}
-.ui-state-error,.ui-widget-content .ui-state-error,.ui-widget-header .ui-state-error{
-    border:1px solid #f1a899;
-    background:#fddfdf;
-    color:#5f3f3f
-}
-.ui-state-error a,.ui-widget-content .ui-state-error a,.ui-widget-header .ui-state-error a{
-    color:#5f3f3f
-}
-.ui-state-error-text,.ui-widget-content .ui-state-error-text,.ui-widget-header .ui-state-error-text{
-    color:#5f3f3f
-}
-.ui-priority-primary,.ui-widget-content .ui-priority-primary,.ui-widget-header .ui-priority-primary{
-    font-weight:700
-}
-.ui-priority-secondary,.ui-widget-content .ui-priority-secondary,.ui-widget-header .ui-priority-secondary{
-    opacity:.7;
-    filter:Alpha(Opacity=70);
-    font-weight:400
-}
-.ui-state-disabled,.ui-widget-content .ui-state-disabled,.ui-widget-header .ui-state-disabled{
-    opacity:.35;
-    filter:Alpha(Opacity=35);
-    background-image:none
-}
+
 .ui-state-disabled .ui-icon{
     filter:Alpha(Opacity=35)
 }
@@ -4133,9 +3862,6 @@ button.close,button.ui-dialog-titlebar-close{
     height:16px
 }
 .ui-icon,.ui-widget-content .ui-icon{
-    background-image:url(images/ui-icons_444444_256x240.png)
-}
-.ui-widget-header .ui-icon{
     background-image:url(images/ui-icons_444444_256x240.png)
 }
 .ui-button:focus .ui-icon,.ui-button:hover .ui-icon,.ui-state-focus .ui-icon,.ui-state-hover .ui-icon{
@@ -7582,81 +7308,8 @@ button.close,button.ui-dialog-titlebar-close{
 }
 /*! * Font Awesome 4.4.0 by @davegandy - http://fontawesome.io - @fontawesome * License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License) */
 
-.bs-searchbox:after,.caret,.dropup .caret,.fa,.form-group.search:after,.navbar-fixed-bottom .dropdown .caret{
-    display:inline-block;
-    font:normal normal normal 14px/1 FontAwesome;
-    font-size:inherit;
-    text-rendering:auto;
-    -webkit-font-smoothing:antialiased;
-    -moz-osx-font-smoothing:grayscale;
-    line-height:inherit
-}
-.fa-lg{
-    font-size:1.33333em;
-    line-height:.75em;
-    vertical-align:-15%
-}
-.fa-2x{
-    font-size:2em
-}
-.fa-3x{
-    font-size:3em
-}
-.fa-4x{
-    font-size:4em
-}
-.fa-5x{
-    font-size:5em
-}
-.fa-fw{
-    width:1.28571em;
-    text-align:center
-}
-.fa-ul{
-    padding-left:0;
-    margin-left:2.14286em;
-    list-style-type:none
-}
-.fa-ul>li{
-    position:relative
-}
-.fa-li{
-    position:absolute;
-    left:-2.14286em;
-    width:2.14286em;
-    top:.14286em;
-    text-align:center
-}
-.fa-li.fa-lg{
-    left:-1.85714em
-}
-.fa-border{
-    padding:.2em .25em .15em;
-    border:solid .08em #eee;
-    border-radius:.1em
-}
-.fa-pull-left{
-    float:left
-}
-.fa-pull-right{
-    float:right
-}
-.fa-pull-left.bs-searchbox:after,.fa-pull-left.caret,.fa-pull-left.form-group.search:after,.fa.fa-pull-left,.navbar-fixed-bottom .dropdown .fa-pull-left.caret{
-    margin-right:.3em
-}
-.fa-pull-right.bs-searchbox:after,.fa-pull-right.caret,.fa-pull-right.form-group.search:after,.fa.fa-pull-right,.navbar-fixed-bottom .dropdown .fa-pull-right.caret{
-    margin-left:.3em
-}
-.nav-pagination .pagination,.pull-right{
-    float:right
-}
-.pull-left{
-    float:left
-}
 
-.fa.pull-right,.nav-pagination .bs-searchbox.pagination:after,.nav-pagination .caret.pagination,.nav-pagination .fa.pagination,.nav-pagination .form-group.search.pagination:after,.navbar-fixed-bottom .dropdown .pull-right.caret,.pull-right.bs-searchbox:after,.pull-right.caret,.pull-right.form-group.search:after{
-    margin-left:.3em
-}
+
 .fa-spin{
     -webkit-animation:fa-spin 2s infinite linear;
     animation:fa-spin 2s infinite linear
@@ -8438,9 +8091,7 @@ button.close,button.ui-dialog-titlebar-close{
 .fa-angle-up:before{
     content:""
 }
-.caret:before,.dropup .caret:before,.fa-angle-down:before,.navbar-fixed-bottom .dropdown .caret:before{
-    content:""
-}
+
 .fa-desktop:before{
     content:""
 }
@@ -9031,9 +8682,6 @@ button.close,button.ui-dialog-titlebar-close{
 }
 .fa-circle-thin:before{
     content:""
-}
-.fa-header:before{
-    content:""
 }
 .fa-paragraph:before{
     content:""
@@ -10896,11 +10544,6 @@ select.bs-select-hidden,select.form-control,select.selectpicker{
     text-overflow:ellipsis;
     white-space:nowrap
 }
-.bootstrap-select.form-control .dropdown-menu.inner>li.dropdown-header,.bootstrap-select.form-control .leaflet-control-layers .inner.leaflet-control-layers-list>li.dropdown-header,.leaflet-control-layers .bootstrap-select.form-control .inner.leaflet-control-layers-list>li.dropdown-header{
-    background:#f9f9f9;
-    padding:6px 12px;
-    margin:0
-}
 .bootstrap-select.form-control .dropdown-menu.inner>li.divider,.bootstrap-select.form-control .leaflet-control-layers .inner.leaflet-control-layers-list>li.divider,.leaflet-control-layers .bootstrap-select.form-control .inner.leaflet-control-layers-list>li.divider{
     display:none
 }
@@ -10942,11 +10585,6 @@ select.bs-select-hidden,select.form-control,select.selectpicker{
     overflow:hidden;
     text-overflow:ellipsis;
     white-space:nowrap
-}
-.bootstrap-select.form-control.multiexpand .dropdown-menu.inner>li.dropdown-header,.bootstrap-select.form-control.multiexpand .dropdown-menu.inner>li.no-results,.bootstrap-select.form-control.multiexpand .leaflet-control-layers .inner.leaflet-control-layers-list>li.dropdown-header,.bootstrap-select.form-control.multiexpand .leaflet-control-layers .inner.leaflet-control-layers-list>li.no-results,.leaflet-control-layers .bootstrap-select.form-control.multiexpand .inner.leaflet-control-layers-list>li.dropdown-header,.leaflet-control-layers .bootstrap-select.form-control.multiexpand .inner.leaflet-control-layers-list>li.no-results{
-    background:#f9f9f9;
-    padding:6px 12px;
-    margin:0
 }
 .bootstrap-select.form-control.multiexpand .dropdown-menu.inner>li.divider,.bootstrap-select.form-control.multiexpand .leaflet-control-layers .inner.leaflet-control-layers-list>li.divider,.leaflet-control-layers .bootstrap-select.form-control.multiexpand .inner.leaflet-control-layers-list>li.divider{
     display:none
@@ -11796,9 +11434,6 @@ button.toast-close-button{
 .leaflet-pan-anim .leaflet-tile{
     transition:none
 }
-.btn-collapse .leaf-device-marker i,.leaf-device-marker .btn-collapse i,.leaf-device-marker .group-heading>.group-title:after,.leaf-device-marker .ico,.leaf-device-marker .icon,.leaf-device-marker .table.table-list .sorting:after,.leaf-device-marker .table.table-list .sorting:before,.leaf-device-marker .table.table-list .sorting_asc:after,.leaf-device-marker .table.table-list .sorting_asc:before,.leaf-device-marker .table.table-list .sorting_desc:after,.leaf-device-marker .table.table-list .sorting_desc:before,.table.table-list .leaf-device-marker .sorting:after,.table.table-list .leaf-device-marker .sorting:before,.table.table-list .leaf-device-marker .sorting_asc:after,.table.table-list .leaf-device-marker .sorting_asc:before,.table.table-list .leaf-device-marker .sorting_desc:after,.table.table-list .leaf-device-marker .sorting_desc:before{
-    display:block
-}
 .leaf-device-marker .name{
     display:block;
     position:absolute;
@@ -12300,27 +11935,6 @@ button.toast-close-button{
     max-height:100%;
     max-width:100%
 }
-.popup-header{
-    background:#f9f9f9
-}
-.popup-header:after,.popup-header:before{
-    content:" ";
-    display:table
-}
-.popup-header:after{
-    clear:both
-}
-.popup-header .nav-tabs{
-    float:right
-}
-.popup-header .popup-title{
-    overflow:hidden;
-    text-overflow:ellipsis;
-    white-space:nowrap;
-    font-size:13px;
-    color:#202020;
-    padding:10px
-}
 .popup-body{
     background:#fff;
     padding:8px;
@@ -12583,129 +12197,6 @@ img[data-src]{
     color:green;
     position:absolute
 }
-.navbar-nav>li.language-selection>a{
-    padding-top:10px;
-    padding-bottom:10px
-}
-.navbar-toggle{
-    padding:6px 5px;
-    margin-top:7.5px;
-    margin-bottom:7.5px
-}
-#header.folded{
-    position:relative;
-    z-index:1000
-}
-@media (min-width:500px){
-    #header.folded .navbar-nav>li>a .icon+.text{
-        display:none
-    }
-    #header.folded .navbar-toggle{
-        display:none
-    }
-    #header.folded .navbar-collapse.collapse{
-        display:block!important;
-        height:auto!important;
-        padding-bottom:0;
-        overflow:visible!important
-    }
-}
-@media (min-width:768px){
-    #header.folded:before{
-        content:' ';
-        position:absolute;
-        top:0;
-        left:0;
-        display:block;
-        width:100%;
-        height:10px;
-        background-color:#fff;
-        z-index:1
-    }
-    #header.folded .navbar{
-        background-color:transparent;
-        border-color:transparent
-    }
-    #header.folded .navbar .navbar-brand,#header.folded .navbar .navbar-nav{
-        position:relative;
-        background-color:#fff;
-        border-bottom:1px solid #d9d9d9
-    }
-    #header.folded .navbar .navbar-brand{
-        max-width:300px
-    }
-    #header.folded .navbar .navbar-brand:after,#header.folded .navbar .navbar-brand:before{
-        content:" ";
-        display:block;
-        position:absolute;
-        bottom:0;
-        left:100%;
-        width:0;
-        height:0;
-        z-index:1;
-        border-bottom:33px solid transparent
-    }
-    #header.folded .navbar .navbar-brand:before{
-        border-left:90px solid #d9d9d9
-    }
-    #header.folded .navbar .navbar-brand:after{
-        border-left:90px solid #fff;
-        margin-left:-1px
-    }
-    #header.folded .navbar .navbar-nav:after,#header.folded .navbar .navbar-nav:before{
-        content:" ";
-        display:block;
-        position:absolute;
-        bottom:0;
-        right:100%;
-        width:0;
-        height:0;
-        z-index:1;
-        border-bottom:35px solid transparent
-    }
-    #header.folded .navbar .navbar-nav:before{
-        border-right:90px solid #d9d9d9
-    }
-    #header.folded .navbar .navbar-nav:after{
-        border-right:90px solid #fff;
-        margin-right:-1px
-    }
-}
-#header .main-navbar{
-    position:absolute
-}
-@media (min-width:500px) and (max-width:767px){
-    #header .navbar-header{
-        float:left
-    }
-    #header .navbar-right{
-        float:right!important
-    }
-    #header .navbar-nav{
-        margin-top:0;
-        margin-bottom:0;
-        float:left
-    }
-    #header .navbar-nav>li{
-        float:left
-    }
-    #header .navbar-nav>li>a{
-        padding-top:12.5px;
-        padding-bottom:12.5px
-    }
-    #header .navbar-nav>li>a .icon+.text{
-        display:none
-    }
-    #header .navbar-nav>li.language-selection>a{
-        padding-top:10px;
-        padding-bottom:10px
-    }
-}
-@media (min-width:768px) and (max-width:1199px){
-    .admin-layout .header .navbar-nav li>a>.icon{
-        display:none
-    }
-}
 
 body{
     scrollbar-face-color:#f9f9f9;
@@ -12863,25 +12354,7 @@ body{
     margin-right:-1px;
     margin-bottom:0
 }
-.navbar-default{
-    font-size:13px
-}
-.navbar-default .navbar-brand{
-    padding:5px 15px
-}
-.navbar-default .navbar-brand img{
-    max-height:100%
-}
-.navbar-default .navbar-nav>li>a>.icon{
-    color:#ddd
-}
-.navbar-default .navbar-nav>li.active>a>.icon,.navbar-default .navbar-nav>li:hover>a>.icon{
-    color:inherit
-}
-.navbar-default .navbar-nav>li>a .icon{
-    vertical-align:middle;
-    font-size:1.1em
-}
+
 .coll:before{
     content:' ';
     display:block;
@@ -12892,114 +12365,8 @@ body{
     top:0;
     z-index:1
 }
-.coll .navbar-default{
-    height:10px;
-    background:0 0
-}
-.coll .navbar-default .navbar-header{
-    background-color:#fff
-}
-.coll .navbar-default .navbar-brand{
-    background-color:#fff
-}
-.coll .navbar-default .navbar-nav{
-    background-color:#fff
-}
-.coll .navbar-default .navbar-nav>li>a .icon+.text{
-    display:none
-}
-#header .main-navbar,.navbar-main{
-    font-size:13px;
-    background-color:#fff;
-    border-color:#d9d9d9
-}
-#header .main-navbar .navbar-brand,.navbar-main .navbar-brand{
-    color:#202020;
-    padding:5px 15px
-}
-#header .main-navbar .navbar-brand:focus,#header .main-navbar .navbar-brand:hover,.navbar-main .navbar-brand:focus,.navbar-main .navbar-brand:hover{
-    color:#1b99bd;
-    background-color:#fff
-}
-#header .main-navbar .navbar-brand img,.navbar-main .navbar-brand img{
-    max-height:100%
-}
-#header .main-navbar .navbar-text,.navbar-main .navbar-text{
-    color:#202020
-}
-#header .main-navbar .navbar-nav>li>a>.icon,.navbar-main .navbar-nav>li>a>.icon{
-    color:#ddd
-}
-#header .main-navbar .navbar-nav>li.active>a>.icon,#header .main-navbar .navbar-nav>li:hover>a>.icon,.navbar-main .navbar-nav>li.active>a>.icon,.navbar-main .navbar-nav>li:hover>a>.icon{
-    color:inherit
-}
-#header .main-navbar .navbar-nav>li>a .icon,.navbar-main .navbar-nav>li>a .icon{
-    vertical-align:middle;
-    font-size:1.1em
-}
-#header .main-navbar .navbar-nav>li>a,.navbar-main .navbar-nav>li>a{
-    color:#202020
-}
-#header .main-navbar .navbar-nav>li>a:focus,#header .main-navbar .navbar-nav>li>a:hover,.navbar-main .navbar-nav>li>a:focus,.navbar-main .navbar-nav>li>a:hover{
-    color:#1b99bd;
-    background-color:#f9f9f9
-}
-#header .main-navbar .navbar-nav>.active>a,#header .main-navbar .navbar-nav>.active>a:focus,#header .main-navbar .navbar-nav>.active>a:hover,.navbar-main .navbar-nav>.active>a,.navbar-main .navbar-nav>.active>a:focus,.navbar-main .navbar-nav>.active>a:hover{
-    color:#1b99bd;
-    background-color:#f9f9f9
-}
-#header .main-navbar .navbar-nav>.disabled>a,#header .main-navbar .navbar-nav>.disabled>a:focus,#header .main-navbar .navbar-nav>.disabled>a:hover,.navbar-main .navbar-nav>.disabled>a,.navbar-main .navbar-nav>.disabled>a:focus,.navbar-main .navbar-nav>.disabled>a:hover{
-    color:#ccc;
-    background-color:transparent
-}
-#header .main-navbar .navbar-toggle,.navbar-main .navbar-toggle{
-    border-color:#d9d9d9
-}
-#header .main-navbar .navbar-toggle:focus,#header .main-navbar .navbar-toggle:hover,.navbar-main .navbar-toggle:focus,.navbar-main .navbar-toggle:hover{
-    background-color:#f9f9f9
-}
-#header .main-navbar .navbar-toggle .icon-bar,.navbar-main .navbar-toggle .icon-bar{
-    background-color:#1b99bd
-}
-#header .main-navbar .navbar-collapse,#header .main-navbar .navbar-form,.navbar-main .navbar-collapse,.navbar-main .navbar-form{
-    border-color:#d9d9d9
-}
-#header .main-navbar .navbar-nav>.open>a,#header .main-navbar .navbar-nav>.open>a:focus,#header .main-navbar .navbar-nav>.open>a:hover,.navbar-main .navbar-nav>.open>a,.navbar-main .navbar-nav>.open>a:focus,.navbar-main .navbar-nav>.open>a:hover{
-    background-color:#f9f9f9;
-    color:#1b99bd
-}
-@media (max-width:767px){
-    #header .main-navbar .navbar-nav .open .dropdown-menu>li>a,#header .main-navbar .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>li>a,.leaflet-control-layers #header .main-navbar .navbar-nav .open .leaflet-control-layers-list>li>a,.leaflet-control-layers .navbar-main .navbar-nav .open .leaflet-control-layers-list>li>a,.navbar-main .navbar-nav .open .dropdown-menu>li>a,.navbar-main .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>li>a{
-        color:#202020
-    }
-    #header .main-navbar .navbar-nav .open .dropdown-menu>li>a:focus,#header .main-navbar .navbar-nav .open .dropdown-menu>li>a:hover,#header .main-navbar .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>li>a:focus,#header .main-navbar .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>li>a:hover,.leaflet-control-layers #header .main-navbar .navbar-nav .open .leaflet-control-layers-list>li>a:focus,.leaflet-control-layers #header .main-navbar .navbar-nav .open .leaflet-control-layers-list>li>a:hover,.leaflet-control-layers .navbar-main .navbar-nav .open .leaflet-control-layers-list>li>a:focus,.leaflet-control-layers .navbar-main .navbar-nav .open .leaflet-control-layers-list>li>a:hover,.navbar-main .navbar-nav .open .dropdown-menu>li>a:focus,.navbar-main .navbar-nav .open .dropdown-menu>li>a:hover,.navbar-main .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>li>a:focus,.navbar-main .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>li>a:hover{
-        color:#1b99bd;
-        background-color:#f9f9f9
-    }
-    #header .main-navbar .navbar-nav .open .dropdown-menu>.active>a,#header .main-navbar .navbar-nav .open .dropdown-menu>.active>a:focus,#header .main-navbar .navbar-nav .open .dropdown-menu>.active>a:hover,#header .main-navbar .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>.active>a,#header .main-navbar .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>.active>a:focus,#header .main-navbar .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>.active>a:hover,.leaflet-control-layers #header .main-navbar .navbar-nav .open .leaflet-control-layers-list>.active>a,.leaflet-control-layers #header .main-navbar .navbar-nav .open .leaflet-control-layers-list>.active>a:focus,.leaflet-control-layers #header .main-navbar .navbar-nav .open .leaflet-control-layers-list>.active>a:hover,.leaflet-control-layers .navbar-main .navbar-nav .open .leaflet-control-layers-list>.active>a,.leaflet-control-layers .navbar-main .navbar-nav .open .leaflet-control-layers-list>.active>a:focus,.leaflet-control-layers .navbar-main .navbar-nav .open .leaflet-control-layers-list>.active>a:hover,.navbar-main .navbar-nav .open .dropdown-menu>.active>a,.navbar-main .navbar-nav .open .dropdown-menu>.active>a:focus,.navbar-main .navbar-nav .open .dropdown-menu>.active>a:hover,.navbar-main .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>.active>a,.navbar-main .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>.active>a:focus,.navbar-main .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>.active>a:hover{
-        color:#1b99bd;
-        background-color:#f9f9f9
-    }
-    #header .main-navbar .navbar-nav .open .dropdown-menu>.disabled>a,#header .main-navbar .navbar-nav .open .dropdown-menu>.disabled>a:focus,#header .main-navbar .navbar-nav .open .dropdown-menu>.disabled>a:hover,#header .main-navbar .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>.disabled>a,#header .main-navbar .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>.disabled>a:focus,#header .main-navbar .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>.disabled>a:hover,.leaflet-control-layers #header .main-navbar .navbar-nav .open .leaflet-control-layers-list>.disabled>a,.leaflet-control-layers #header .main-navbar .navbar-nav .open .leaflet-control-layers-list>.disabled>a:focus,.leaflet-control-layers #header .main-navbar .navbar-nav .open .leaflet-control-layers-list>.disabled>a:hover,.leaflet-control-layers .navbar-main .navbar-nav .open .leaflet-control-layers-list>.disabled>a,.leaflet-control-layers .navbar-main .navbar-nav .open .leaflet-control-layers-list>.disabled>a:focus,.leaflet-control-layers .navbar-main .navbar-nav .open .leaflet-control-layers-list>.disabled>a:hover,.navbar-main .navbar-nav .open .dropdown-menu>.disabled>a,.navbar-main .navbar-nav .open .dropdown-menu>.disabled>a:focus,.navbar-main .navbar-nav .open .dropdown-menu>.disabled>a:hover,.navbar-main .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>.disabled>a,.navbar-main .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>.disabled>a:focus,.navbar-main .navbar-nav .open .leaflet-control-layers .leaflet-control-layers-list>.disabled>a:hover{
-        color:#ccc;
-        background-color:transparent
-    }
-}
-#header .main-navbar .navbar-link,.navbar-main .navbar-link{
-    color:#202020
-}
-#header .main-navbar .navbar-link:hover,.navbar-main .navbar-link:hover{
-    color:#1b99bd
-}
-#header .main-navbar .btn-link,.navbar-main .btn-link{
-    color:#202020
-}
-#header .main-navbar .btn-link:focus,#header .main-navbar .btn-link:hover,.navbar-main .btn-link:focus,.navbar-main .btn-link:hover{
-    color:#1b99bd
-}
-#header .main-navbar .btn-link[disabled]:focus,#header .main-navbar .btn-link[disabled]:hover,#header fieldset[disabled] .main-navbar .btn-link:focus,#header fieldset[disabled] .main-navbar .btn-link:hover,.navbar-main .btn-link[disabled]:focus,.navbar-main .btn-link[disabled]:hover,fieldset[disabled] #header .main-navbar .btn-link:focus,fieldset[disabled] #header .main-navbar .btn-link:hover,fieldset[disabled] .navbar-main .btn-link:focus,fieldset[disabled] .navbar-main .btn-link:hover{
-    color:#ccc
-}
+
+
 .btn.icon{
     padding:1px 3px
 }
@@ -13132,246 +12499,8 @@ body{
 .input-group>.input-group-btn>.form-control.timeselect.open{
     z-index:3
 }
-.caret,.dropup .caret,.navbar-fixed-bottom .dropdown .caret{
-    border:0;
-    width:auto;
-    height:auto
-}
-.dropdown-menu>li>a,.leaflet-control-layers .leaflet-control-layers-list>li>a{
-    font-size:11px
-}
-.dropdown-menu>li>a:hover>.icon,.leaflet-control-layers .leaflet-control-layers-list>li>a:hover>.icon{
-    color:#1b99bd
-}
-.dropdown-menu>li>a>.icon,.leaflet-control-layers .leaflet-control-layers-list>li>a>.icon{
-    vertical-align:middle;
-    color:#ddd
-}
-.bootstrap-select>.dropdown-toggle>.icon{
-    left:12px;
-    position:absolute
-}
-.bootstrap-select>.dropdown-toggle>.icon+.filter-option{
-    padding-left:20px
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li .check-mark,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li .check-mark,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li .check-mark{
-    display:none
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li a,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a{
-    line-height:1;
-    position:relative;
-    padding-left:0
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li a span.text,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a span.text,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a span.text{
-    display:inline-block;
-    vertical-align:middle;
-    position:relative;
-    padding-left:0;
-    margin-bottom:0
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li a span.text::before,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a span.text::before,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a span.text::before{
-    content:'\0000';
-    position:relative;
-    z-index:1;
-    left:0;
-    width:16px;
-    height:16px;
-    display:inline-block;
-    vertical-align:middle;
-    color:transparent;
-    background-color:#fff;
-    margin:1px;
-    margin-right:5px;
-    padding:3px;
-    font-size:10px;
-    line-height:1;
-    -webkit-transition:border .15s ease-in-out,color .15s ease-in-out;
-    -o-transition:border .15s ease-in-out,color .15s ease-in-out;
-    transition:border .15s ease-in-out,color .15s ease-in-out
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li a span.text::after,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a span.text::after,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a span.text::after{
-    position:absolute;
-    top:0;
-    left:0;
-    width:18px;
-    height:18px;
-    content:'\0000';
-    color:transparent;
-    border:1px solid #d9d9d9;
-    border-radius:0
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li a input[type=checkbox],.bootstrap-select.btn-group.show-tick .dropdown-menu li a input[type=radio],.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a input[type=checkbox],.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a input[type=radio],.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a input[type=checkbox],.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a input[type=radio]{
-    position:absolute;
-    z-index:2;
-    top:0;
-    left:0;
-    display:block;
-    width:100%;
-    height:100%;
-    margin:0;
-    cursor:pointer;
-    opacity:0
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li a input[type=checkbox]:focus+span.text::before,.bootstrap-select.btn-group.show-tick .dropdown-menu li a input[type=radio]:focus+span.text::before,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a input[type=checkbox]:focus+span.text::before,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a input[type=radio]:focus+span.text::before,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a input[type=checkbox]:focus+span.text::before,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a input[type=radio]:focus+span.text::before{
-    outline:0
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li a input[type=checkbox]:checked+span.text::before,.bootstrap-select.btn-group.show-tick .dropdown-menu li a input[type=radio]:checked+span.text::before,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a input[type=checkbox]:checked+span.text::before,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a input[type=radio]:checked+span.text::before,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a input[type=checkbox]:checked+span.text::before,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a input[type=radio]:checked+span.text::before{
-    font-family:icomoon;
-    content:""
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li a input[type=checkbox]:checked:disabled+span.text::before,.bootstrap-select.btn-group.show-tick .dropdown-menu li a input[type=radio]:checked:disabled+span.text::before,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a input[type=checkbox]:checked:disabled+span.text::before,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a input[type=radio]:checked:disabled+span.text::before,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a input[type=checkbox]:checked:disabled+span.text::before,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a input[type=radio]:checked:disabled+span.text::before{
-    background-color:inherit
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li a input[type=checkbox]:disabled+span.text,.bootstrap-select.btn-group.show-tick .dropdown-menu li a input[type=radio]:disabled+span.text,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a input[type=checkbox]:disabled+span.text,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a input[type=radio]:disabled+span.text,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a input[type=checkbox]:disabled+span.text,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a input[type=radio]:disabled+span.text{
-    opacity:.45
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li a input[type=checkbox]:disabled+span.text::before,.bootstrap-select.btn-group.show-tick .dropdown-menu li a input[type=radio]:disabled+span.text::before,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a input[type=checkbox]:disabled+span.text::before,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a input[type=radio]:disabled+span.text::before,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a input[type=checkbox]:disabled+span.text::before,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a input[type=radio]:disabled+span.text::before{
-    background-color:#eee;
-    cursor:not-allowed
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li .group a.checkbox,.bootstrap-select.btn-group.show-tick .dropdown-menu li .table a.checkbox,.bootstrap-select.btn-group.show-tick .dropdown-menu li a.checkbox-inline,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li .group a.checkbox,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li .table a.checkbox,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a.checkbox-inline,.group .bootstrap-select.btn-group.show-tick .dropdown-menu li a.checkbox,.group .bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a.checkbox,.group .leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a.checkbox,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li .group a.checkbox,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li .table a.checkbox,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a.checkbox-inline,.table .bootstrap-select.btn-group.show-tick .dropdown-menu li a.checkbox,.table .bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a.checkbox,.table .leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a.checkbox{
-    margin-top:0
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li a span.text,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li a span.text,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li a span.text{
-    margin-left:5px;
-    margin-right:0
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.text::before,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li.selected a span.text::before,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li.selected a span.text::before{
-    font-family:icomoon;
-    content:""
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.text::before,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li.selected a span.text::before,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li.selected a span.text::before{
-    color:#fff;
-    background-color:#1b99bd
-}
-.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.text::after,.bootstrap-select.btn-group.show-tick .leaflet-control-layers .leaflet-control-layers-list li.selected a span.text::after,.leaflet-control-layers .bootstrap-select.btn-group.show-tick .leaflet-control-layers-list li.selected a span.text::after{
-    background-color:#1b99bd;
-    border-color:#1b99bd
-}
-.droparrow.dropdown>.dropdown-menu:after,.droparrow.dropdown>.dropdown-menu:before,.droparrow.dropleft>.dropdown-menu:after,.droparrow.dropleft>.dropdown-menu:before,.droparrow.dropright>.dropdown-menu:after,.droparrow.dropright>.dropdown-menu:before,.droparrow.dropup>.dropdown-menu:after,.droparrow.dropup>.dropdown-menu:before,.dropdown.leaflet-control-layers>.dropdown-menu:after,.dropdown.leaflet-control-layers>.dropdown-menu:before,.dropdown.leaflet-control-layers>.leaflet-control-layers-list:after,.dropdown.leaflet-control-layers>.leaflet-control-layers-list:before,.dropleft.leaflet-control-layers>.dropdown-menu:after,.dropleft.leaflet-control-layers>.dropdown-menu:before,.dropleft.leaflet-control-layers>.leaflet-control-layers-list:after,.dropleft.leaflet-control-layers>.leaflet-control-layers-list:before,.dropup.leaflet-control-layers>.dropdown-menu:after,.dropup.leaflet-control-layers>.dropdown-menu:before,.dropup.leaflet-control-layers>.leaflet-control-layers-list:after,.dropup.leaflet-control-layers>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropdown>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropdown>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropleft>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropleft>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropright>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropright>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropup>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropup>.leaflet-control-layers-list:before,.leaflet-control-layers>.dropdown-menu:after,.leaflet-control-layers>.dropdown-menu:before,.leaflet-control-layers>.leaflet-control-layers-list:after,.leaflet-control-layers>.leaflet-control-layers-list:before{
-    content:'';
-    display:inline-block;
-    position:absolute
-}
-.droparrow.dropdown>.dropdown-menu:before,.droparrow.dropleft>.dropdown-menu:before,.droparrow.dropright>.dropdown-menu:before,.droparrow.dropup>.dropdown-menu:before,.dropdown.leaflet-control-layers>.dropdown-menu:before,.dropdown.leaflet-control-layers>.leaflet-control-layers-list:before,.dropleft.leaflet-control-layers>.dropdown-menu:before,.dropleft.leaflet-control-layers>.leaflet-control-layers-list:before,.dropup.leaflet-control-layers>.dropdown-menu:before,.dropup.leaflet-control-layers>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropdown>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropleft>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropright>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropup>.leaflet-control-layers-list:before,.leaflet-control-layers>.dropdown-menu:before,.leaflet-control-layers>.leaflet-control-layers-list:before{
-    border:8px solid transparent
-}
-.droparrow.dropdown>.dropdown-menu:after,.droparrow.dropleft>.dropdown-menu:after,.droparrow.dropright>.dropdown-menu:after,.droparrow.dropup>.dropdown-menu:after,.dropdown.leaflet-control-layers>.dropdown-menu:after,.dropdown.leaflet-control-layers>.leaflet-control-layers-list:after,.dropleft.leaflet-control-layers>.dropdown-menu:after,.dropleft.leaflet-control-layers>.leaflet-control-layers-list:after,.dropup.leaflet-control-layers>.dropdown-menu:after,.dropup.leaflet-control-layers>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropdown>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropleft>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropright>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropup>.leaflet-control-layers-list:after,.leaflet-control-layers>.dropdown-menu:after,.leaflet-control-layers>.leaflet-control-layers-list:after{
-    border:7px solid transparent
-}
-.droparrow.dropleft>.dropdown-menu,.droparrow.dropright.left>.dropdown-menu,.dropleft.leaflet-control-layers>.dropdown-menu,.dropleft.leaflet-control-layers>.leaflet-control-layers-list,.leaflet-control-layers .droparrow.dropleft>.leaflet-control-layers-list,.leaflet-control-layers .droparrow.dropright.left>.leaflet-control-layers-list,.left.leaflet-control-layers>.dropdown-menu,.left.leaflet-control-layers>.leaflet-control-layers-list{
-    left:100%;
-    top:-9px;
-    margin-left:8px
-}
-.droparrow.dropleft>.dropdown-menu:before,.droparrow.dropright.left>.dropdown-menu:before,.dropleft.leaflet-control-layers>.dropdown-menu:before,.dropleft.leaflet-control-layers>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropleft>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropright.left>.leaflet-control-layers-list:before,.left.leaflet-control-layers>.dropdown-menu:before,.left.leaflet-control-layers>.leaflet-control-layers-list:before{
-    top:9px;
-    left:-8px;
-    border:8px solid transparent;
-    border-right-color:#d9d9d9;
-    border-left:0;
-    bottom:auto;
-    right:auto
-}
-.droparrow.dropleft>.dropdown-menu:after,.droparrow.dropright.left>.dropdown-menu:after,.dropleft.leaflet-control-layers>.dropdown-menu:after,.dropleft.leaflet-control-layers>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropleft>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropright.left>.leaflet-control-layers-list:after,.left.leaflet-control-layers>.dropdown-menu:after,.left.leaflet-control-layers>.leaflet-control-layers-list:after{
-    top:10px;
-    left:-7px;
-    border:7px solid transparent;
-    border-right-color:#fff;
-    border-left:0;
-    bottom:auto;
-    right:auto
-}
-.droparrow.dropleft.right>.dropdown-menu,.droparrow.dropright>.dropdown-menu,.dropleft.right.leaflet-control-layers>.dropdown-menu,.dropleft.right.leaflet-control-layers>.leaflet-control-layers-list,.leaflet-control-layers .droparrow.dropleft.right>.leaflet-control-layers-list,.leaflet-control-layers .droparrow.dropright>.leaflet-control-layers-list,.leaflet-control-layers>.dropdown-menu,.leaflet-control-layers>.leaflet-control-layers-list{
-    left:inherit;
-    right:100%;
-    top:-9px;
-    margin-right:8px
-}
-.droparrow.dropleft.right>.dropdown-menu:before,.droparrow.dropright>.dropdown-menu:before,.dropleft.right.leaflet-control-layers>.dropdown-menu:before,.dropleft.right.leaflet-control-layers>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropleft.right>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropright>.leaflet-control-layers-list:before,.leaflet-control-layers>.dropdown-menu:before,.leaflet-control-layers>.leaflet-control-layers-list:before{
-    top:9px;
-    right:-8px;
-    border:8px solid transparent;
-    border-left-color:#d9d9d9;
-    border-right:0;
-    bottom:auto;
-    left:auto
-}
-.droparrow.dropleft.right>.dropdown-menu:after,.droparrow.dropright>.dropdown-menu:after,.dropleft.right.leaflet-control-layers>.dropdown-menu:after,.dropleft.right.leaflet-control-layers>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropleft.right>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropright>.leaflet-control-layers-list:after,.leaflet-control-layers>.dropdown-menu:after,.leaflet-control-layers>.leaflet-control-layers-list:after{
-    top:10px;
-    right:-7px;
-    border:7px solid transparent;
-    border-left-color:#fff;
-    border-right:0;
-    bottom:auto;
-    left:auto
-}
-.droparrow.dropdown>.dropdown-menu,.droparrow.dropup.down>.dropdown-menu,.dropdown.leaflet-control-layers>.dropdown-menu,.dropdown.leaflet-control-layers>.leaflet-control-layers-list,.dropup.down.leaflet-control-layers>.dropdown-menu,.dropup.down.leaflet-control-layers>.leaflet-control-layers-list,.leaflet-control-layers .droparrow.dropdown>.leaflet-control-layers-list,.leaflet-control-layers .droparrow.dropup.down>.leaflet-control-layers-list{
-    top:100%;
-    left:-14px;
-    margin-top:8px
-}
-.droparrow.dropdown>.dropdown-menu:before,.droparrow.dropup.down>.dropdown-menu:before,.dropdown.leaflet-control-layers>.dropdown-menu:before,.dropdown.leaflet-control-layers>.leaflet-control-layers-list:before,.dropup.down.leaflet-control-layers>.dropdown-menu:before,.dropup.down.leaflet-control-layers>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropdown>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropup.down>.leaflet-control-layers-list:before{
-    top:-8px;
-    left:9px;
-    border:8px solid transparent;
-    border-top:0;
-    border-bottom-color:#d9d9d9;
-    bottom:auto;
-    right:auto
-}
-.droparrow.dropdown>.dropdown-menu:after,.droparrow.dropup.down>.dropdown-menu:after,.dropdown.leaflet-control-layers>.dropdown-menu:after,.dropdown.leaflet-control-layers>.leaflet-control-layers-list:after,.dropup.down.leaflet-control-layers>.dropdown-menu:after,.dropup.down.leaflet-control-layers>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropdown>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropup.down>.leaflet-control-layers-list:after{
-    top:-7px;
-    left:10px;
-    border:7px solid transparent;
-    border-top:0;
-    border-bottom-color:#fff;
-    bottom:auto;
-    right:auto
-}
-.droparrow.dropdown.up>.dropdown-menu,.droparrow.dropup>.dropdown-menu,.dropdown.up.leaflet-control-layers>.dropdown-menu,.dropdown.up.leaflet-control-layers>.leaflet-control-layers-list,.dropup.leaflet-control-layers>.dropdown-menu,.dropup.leaflet-control-layers>.leaflet-control-layers-list,.leaflet-control-layers .droparrow.dropdown.up>.leaflet-control-layers-list,.leaflet-control-layers .droparrow.dropup>.leaflet-control-layers-list{
-    bottom:100%;
-    left:-9px;
-    margin-bottom:8px
-}
-.droparrow.dropdown.up>.dropdown-menu:before,.droparrow.dropup>.dropdown-menu:before,.dropdown.up.leaflet-control-layers>.dropdown-menu:before,.dropdown.up.leaflet-control-layers>.leaflet-control-layers-list:before,.dropup.leaflet-control-layers>.dropdown-menu:before,.dropup.leaflet-control-layers>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropdown.up>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropup>.leaflet-control-layers-list:before{
-    left:9px;
-    bottom:-8px;
-    border:8px solid transparent;
-    border-bottom:0;
-    border-top-color:#d9d9d9
-}
-.droparrow.dropdown.up>.dropdown-menu:after,.droparrow.dropup>.dropdown-menu:after,.dropdown.up.leaflet-control-layers>.dropdown-menu:after,.dropdown.up.leaflet-control-layers>.leaflet-control-layers-list:after,.dropup.leaflet-control-layers>.dropdown-menu:after,.dropup.leaflet-control-layers>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropdown.up>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropup>.leaflet-control-layers-list:after{
-    left:10px;
-    bottom:-7px;
-    border:7px solid transparent;
-    border-bottom:0;
-    border-top-color:#fff
-}
-.droparrow.dropleft.up>.dropdown-menu,.droparrow.dropright.up>.dropdown-menu,.dropleft.up.leaflet-control-layers>.dropdown-menu,.dropleft.up.leaflet-control-layers>.leaflet-control-layers-list,.leaflet-control-layers .droparrow.dropleft.up>.leaflet-control-layers-list,.leaflet-control-layers .droparrow.dropright.up>.leaflet-control-layers-list,.up.leaflet-control-layers>.dropdown-menu,.up.leaflet-control-layers>.leaflet-control-layers-list{
-    top:auto;
-    bottom:-9px
-}
-.droparrow.dropleft.up>.dropdown-menu:before,.droparrow.dropright.up>.dropdown-menu:before,.dropleft.up.leaflet-control-layers>.dropdown-menu:before,.dropleft.up.leaflet-control-layers>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropleft.up>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropright.up>.leaflet-control-layers-list:before,.up.leaflet-control-layers>.dropdown-menu:before,.up.leaflet-control-layers>.leaflet-control-layers-list:before{
-    top:auto;
-    bottom:10px
-}
-.droparrow.dropleft.up>.dropdown-menu:after,.droparrow.dropright.up>.dropdown-menu:after,.dropleft.up.leaflet-control-layers>.dropdown-menu:after,.dropleft.up.leaflet-control-layers>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropleft.up>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropright.up>.leaflet-control-layers-list:after,.up.leaflet-control-layers>.dropdown-menu:after,.up.leaflet-control-layers>.leaflet-control-layers-list:after{
-    top:auto;
-    bottom:11px
-}
-.droparrow.dropdown.right>.dropdown-menu,.droparrow.dropup.right>.dropdown-menu,.dropdown.right.leaflet-control-layers>.dropdown-menu,.dropdown.right.leaflet-control-layers>.leaflet-control-layers-list,.dropup.right.leaflet-control-layers>.dropdown-menu,.dropup.right.leaflet-control-layers>.leaflet-control-layers-list,.leaflet-control-layers .droparrow.dropdown.right>.leaflet-control-layers-list,.leaflet-control-layers .droparrow.dropup.right>.leaflet-control-layers-list{
-    left:auto;
-    right:-9px
-}
-.droparrow.dropdown.right>.dropdown-menu:before,.droparrow.dropup.right>.dropdown-menu:before,.dropdown.right.leaflet-control-layers>.dropdown-menu:before,.dropdown.right.leaflet-control-layers>.leaflet-control-layers-list:before,.dropup.right.leaflet-control-layers>.dropdown-menu:before,.dropup.right.leaflet-control-layers>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropdown.right>.leaflet-control-layers-list:before,.leaflet-control-layers .droparrow.dropup.right>.leaflet-control-layers-list:before{
-    left:auto;
-    right:9px
-}
-.droparrow.dropdown.right>.dropdown-menu:after,.droparrow.dropup.right>.dropdown-menu:after,.dropdown.right.leaflet-control-layers>.dropdown-menu:after,.dropdown.right.leaflet-control-layers>.leaflet-control-layers-list:after,.dropup.right.leaflet-control-layers>.dropdown-menu:after,.dropup.right.leaflet-control-layers>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropdown.right>.leaflet-control-layers-list:after,.leaflet-control-layers .droparrow.dropup.right>.leaflet-control-layers-list:after{
-    left:auto;
-    right:10px
-}
+
+
 label{
     font-weight:400
 }
@@ -13487,13 +12616,7 @@ textarea.form-control{
 .modal-content{
     background-color:#fff
 }
-.modal-header,.ui-dialog-titlebar.ui-widget-header{
-    background:#f9f9f9
-}
-.modal-header .close,.modal-header button.ui-dialog-titlebar-close,.ui-dialog-titlebar.ui-widget-header .close,.ui-dialog-titlebar.ui-widget-header button.ui-dialog-titlebar-close{
-    font-size:25px;
-    margin-top:-3px
-}
+
 .modal-title .icon,.ui-dialog-title .icon{
     vertical-align:top;
     color:#1b99bd
@@ -13582,18 +12705,6 @@ textarea.form-control{
     font-weight:300;
     font-size:40px;
     color:#ccc
-}
-.modal-popup .modal-header,.modal-popup .ui-dialog-titlebar.ui-widget-header{
-    background-color:#fff;
-    padding:15px 30px;
-    border-bottom:1px solid #d9d9d9
-}
-.modal-popup .modal-header .close,.modal-popup .modal-header button.ui-dialog-titlebar-close,.modal-popup .ui-dialog-titlebar.ui-widget-header .close,.modal-popup .ui-dialog-titlebar.ui-widget-header button.ui-dialog-titlebar-close{
-    margin-top:0;
-    margin-right:3px;
-    position:absolute;
-    top:0;
-    right:0
 }
 .modal-popup .modal-body{
     padding:15px 45px
@@ -14455,9 +13566,6 @@ body.sign-in-layout .app-links{
 .ui-dialog{
     position:absolute
 }
-.ui-dialog-titlebar.ui-widget-header{
-    cursor:move
-}
 .ui-dialog.ui-widget.ui-widget-content{
     z-index:1046;
     outline:0
@@ -14575,9 +13683,6 @@ body.sign-in-layout .app-links{
 
 .bootstrap-select.hide-picker{
     height:0
-}
-.bootstrap-select.hide-picker .dropdown-toggle{
-    display:none
 }
 .thumbnail-preview{
     position:relative;
