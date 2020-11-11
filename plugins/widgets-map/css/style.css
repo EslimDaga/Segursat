@@ -14368,7 +14368,7 @@ textarea.form-control{
 }
 #map-controls{
     position:absolute;
-    top:10%;
+    top:20%;
     right:0;
     text-align:right;
     z-index:800
