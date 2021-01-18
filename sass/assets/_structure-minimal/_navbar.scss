@@ -4,20 +4,18 @@
 =====================
 */
 
-.header-container {
-  z-index: 1031;
-}
+.sidebar-noneoverflow header.navbar {}
 
 .navbar {
   padding: 0 0 0 20px;
-  background: #fafafa;
+  background: #f1f2f3;
   min-height: 80px;
-  border-bottom: 1px solid #fafafa;
+  border-bottom: 1px solid rgba(92, 26, 195, 0.14);
   -webkit-transition: .3s ease all;
   transition: .3s ease all;
-  -webkit-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
-  -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
-  box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 
   &.expand-header {
     padding: 0;
@@ -36,11 +34,6 @@
 
 .header-container .sidebarCollapse {
   color: #5c1ac3;
-
-  svg {
-    width: 27px;
-    height: 27px;
-  }
 }
 
 .navbar-expand-sm .navbar-item .nav-link {
@@ -52,10 +45,10 @@
 
 .navbar {
   .navbar-item .nav-item.dropdown a svg {
-    stroke-width: 1.0px;
+    stroke-width: 1.3px;
     width: 26px;
     height: 26px;
-    color: #5c1ac3;
+    color: #acb0c3;
   }
 
   .dropdown-menu {
@@ -93,11 +86,12 @@
 
       .dropdown-menu {
         top: 100%;
+        border-radius: 0;
+        border: none;
         border-radius: 4px;
         -webkit-box-shadow: 0 10px 30px 0 rgba(31, 45, 61, 0.1);
         box-shadow: 0 10px 30px 0 rgba(31, 45, 61, 0.1);
-        background: #fff;
-        border: 1px solid #e0e6ed;
+        background: #ffffff;
 
         .dropdown-item {
           border-radius: 6px;
@@ -339,7 +333,7 @@
           }
 
           .dropdown-item:hover .media-body h5.usr-name {
-            color: #445ede;
+            color: #5c1ac3;
           }
 
           .media .media-body {

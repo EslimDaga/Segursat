@@ -5,11 +5,15 @@
 @import '../../base/base';    // Base Variables
 
 .widget-content-area {
-  border: 1px solid #e0e6ed;
-  box-shadow: 0 0 40px 0 rgba(94,92,154,.06);
+  -webkit-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.0901960784), 0 1px 20px 0 rgba(0, 0, 0, 0.08), 0px 1px 11px 0px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.0901960784), 0 1px 20px 0 rgba(0, 0, 0, 0.08), 0px 1px 11px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.0901960784), 0 1px 20px 0 rgba(0, 0, 0, 0.08), 0px 1px 11px 0px rgba(0, 0, 0, 0.06);
 }
 .layout-spacing {
     padding-bottom: 25px;
+}
+body.minimal .widget-content-area {
+    border: 1px solid rgba(92, 26, 195, 0.14);
 }
 /* 
 ===================

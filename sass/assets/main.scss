@@ -883,6 +883,7 @@ select.form-control.form-custom {
   color: #fff !important;
   background-color: #1b55e2 !important;
   border-color: #1b55e2;
+  box-shadow: 0 10px 20px -10px #1b55e2;
 
   &:hover, &:focus {
     color: #fff !important;
@@ -961,6 +962,7 @@ select.form-control.form-custom {
   color: #fff !important;
   background-color: #5c1ac3;
   border-color: #5c1ac3;
+  box-shadow: 0 10px 20px -10px #5c1ac3;
 
   &:hover, &:focus {
     color: #fff !important;
@@ -1007,6 +1009,7 @@ select.form-control.form-custom {
   color: #fff !important;
   background-color: #2196f3;
   border-color: #2196f3;
+  box-shadow: 0 10px 20px -10px #2196f3;
 
   &:hover, &:focus {
     color: #fff !important;
@@ -1087,6 +1090,7 @@ select.form-control.form-custom {
   color: #fff !important;
   background-color: #e2a03f;
   border-color: #e2a03f;
+  box-shadow: 0 10px 20px -10px #e2a03f;
 
   &:hover, &:focus {
     color: #fff !important;
@@ -1167,6 +1171,7 @@ select.form-control.form-custom {
   color: #fff !important;
   background-color: #e7515a;
   border-color: #e7515a;
+  box-shadow: 0 10px 20px -10px #e7515a;
 
   &:hover, &:focus {
     color: #fff !important;
@@ -1247,6 +1252,7 @@ select.form-control.form-custom {
   color: #fff !important;
   background-color: #3b3f5c;
   border-color: #3b3f5c;
+  box-shadow: 0 10px 20px -10px #3b3f5c;
 
   &:hover, &:focus {
     color: #fff !important;
@@ -1297,6 +1303,7 @@ select.form-control.form-custom {
   color: #fff !important;
   background-color: #8dbf42;
   border-color: #8dbf42;
+  box-shadow: 0 10px 20px -10px #8dbf42;
 
   &:hover, &:focus {
     color: #fff !important;
@@ -1673,36 +1680,43 @@ select.form-control.form-custom {
 .btn-outline-primary:hover {
   color: #fff !important;
   background-color: #1b55e2;
+  box-shadow: 0 10px 20px -10px #1b55e2;
 }
 
 .btn-outline-info:hover {
   color: #fff !important;
   background-color: #2196f3;
+  box-shadow: 0 10px 20px -10px #2196f3;
 }
 
 .btn-outline-warning:hover {
   color: #fff !important;
   background-color: #e2a03f;
+  box-shadow: 0 10px 20px -10px #e2a03f;
 }
 
 .btn-outline-success:hover {
   color: #fff !important;
   background-color: #8dbf42;
+  box-shadow: 0 10px 20px -10px #8dbf42;
 }
 
 .btn-outline-danger:hover {
   color: #fff !important;
   background-color: #e7515a;
+  box-shadow: 0 10px 20px -10px #e7515a;
 }
 
 .btn-outline-secondary:hover {
   color: #fff !important;
   background-color: #5c1ac3;
+  box-shadow: 0 10px 20px -10px #5c1ac3;
 }
 
 .btn-outline-dark:hover {
   color: #fff !important;
   background-color: #3b3f5c;
+  box-shadow: 0 10px 20px -10px #3b3f5c;
 }
 
 /*      Dropdown Toggle       */

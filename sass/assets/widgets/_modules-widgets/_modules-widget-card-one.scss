@@ -3,7 +3,9 @@
         Statistics
     ==================
 */
-
+body.minimal .widget-card-one {
+    padding: 20px 0;
+}
 .widget-card-one {
   background: $white;
   padding: 20px 0;

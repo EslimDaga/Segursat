@@ -3,7 +3,9 @@
 //  =================
 
 @import '../../base/base';    // Base Variables
-
+.layout-px-spacing {
+    min-height: auto!important;
+}
 [class*="g-dot-"] {
   position: relative;
 
@@ -115,7 +117,10 @@
     background: $dark;
   }
 }
-
+body.minimal .mail-box-container {
+    border: 1px solid #e0e6ed!important;
+    box-shadow: none;
+}
 .mail-box-container {
   position: relative;
   display: flex;
@@ -124,8 +129,8 @@
   -webkit-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
   -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
   box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
-  height: calc(100vh - 150px);
-
+  height: calc(100vh - 215px);
+  margin-bottom: 10px;
   .avatar-sm {
     width: 2.5rem;
     height: 2.5rem;
@@ -224,7 +229,7 @@
     margin: auto;
     width: 100%;
     overflow: auto;
-    height: calc(100vh - 254px);
+    height: calc(100vh - 319px);
 
     .ps__rail-y {
       right: -15px !important;
@@ -554,7 +559,7 @@
       margin: auto;
       width: 100%;
       overflow: auto;
-      height: calc(100vh - 255px);
+      height: calc(100vh - 320px);
     }
   }
 
@@ -786,7 +791,7 @@
 .mailbox-inbox {
   .collapse {
     position: relative;
-    height: calc(100vh - 203px);
+    height: calc(100vh - 269px);
   }
 
   .mail-content-container {
