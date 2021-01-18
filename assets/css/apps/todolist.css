@@ -8,6 +8,9 @@
 			@Import	Mixins
 	===============================
 */
+.layout-px-spacing {
+  min-height: auto !important; }
+
 /*----------Theme checkbox---------*/
 .new-control {
   position: relative;
@@ -60,6 +63,10 @@
     background: transparent;
     border: 2px solid #888ea8; }
 
+body.minimal .mail-box-container {
+  border: 1px solid #e0e6ed !important;
+  box-shadow: none; }
+
 .mail-box-container {
   position: relative;
   display: flex;
@@ -67,7 +74,8 @@
   background: #fff;
   -webkit-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
   -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
-  box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07); }
+  box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+  margin-bottom: 10px; }
 
 .mail-overlay {
   display: none;
@@ -119,7 +127,7 @@
   .tab-title .todoList-sidebar-scroll {
     position: relative;
     width: 100%;
-    height: calc(100vh - 342px); }
+    height: calc(100vh - 384px); }
   .tab-title .nav-pills .nav-link.active {
     background-color: transparent;
     color: #1b55e2;
@@ -212,7 +220,7 @@
   margin: auto;
   width: 100%;
   overflow: auto;
-  height: calc(100vh - 195px); }
+  height: calc(100vh - 258px); }
 
 .todo-inbox .todo-item {
   cursor: pointer;

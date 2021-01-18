@@ -16,12 +16,7 @@ body {
   overflow: auto;
   margin: 0;
   padding: 0;
-  background-size: cover;
-  background-image: url("./../../img/varios/background-login.jpg"); }
-
-.img-login{
-  padding-top: 15px;
-  padding-bottom: 50px;}
+  background-color: #fff; }
 
 .form-form {
   width: 50%;
@@ -114,7 +109,7 @@ body {
       font-size: 37px;
       color: #3b3f5c; }
     .form-form .form-form-wrap form .field-wrapper label {
-      font-size: 13px;
+      font-size: 10px;
       font-weight: 700;
       color: #3b3f5c;
       margin-bottom: 8px; }
@@ -170,8 +165,7 @@ body {
       align-self: center;
       width: 100%;
       padding: 11px 14px;
-      font-weight: bold;
-      font-size: 17px;
+      font-size: 16px;
       letter-spacing: 2px; }
     .form-form .form-form-wrap form .field-wrapper a.forgot-pass-link {
       font-weight: 600;

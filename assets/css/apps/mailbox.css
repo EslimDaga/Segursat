@@ -8,6 +8,9 @@
 			@Import	Mixins
 	===============================
 */
+.layout-px-spacing {
+  min-height: auto !important; }
+
 [class*="g-dot-"] {
   position: relative; }
   [class*="g-dot-"]:before {
@@ -93,6 +96,10 @@
   .new-control.new-checkbox.checkbox-primary > input:checked ~ span.new-control-indicator {
     background: #3b3f5c; }
 
+body.minimal .mail-box-container {
+  border: 1px solid #e0e6ed !important;
+  box-shadow: none; }
+
 .mail-box-container {
   position: relative;
   display: flex;
@@ -101,7 +108,8 @@
   -webkit-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
   -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
   box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
-  height: calc(100vh - 150px); }
+  height: calc(100vh - 215px);
+  margin-bottom: 10px; }
   .mail-box-container .avatar-sm {
     width: 2.5rem;
     height: 2.5rem;
@@ -174,7 +182,7 @@
     margin: auto;
     width: 100%;
     overflow: auto;
-    height: calc(100vh - 254px); }
+    height: calc(100vh - 319px); }
     .tab-title .mail-sidebar-scroll .ps__rail-y {
       right: -15px !important; }
   .tab-title .nav-pills:nth-child(1) .nav-item:first-child a.nav-link {
@@ -398,7 +406,7 @@
       margin: auto;
       width: 100%;
       overflow: auto;
-      height: calc(100vh - 255px); }
+      height: calc(100vh - 320px); }
   .mailbox-inbox .mail-item[id*="unread-"] div.mail-item-heading .mail-item-inner .f-body .mail-title {
     font-weight: 700;
     color: #1b2e4b; }
@@ -558,7 +566,7 @@
 
 .mailbox-inbox .collapse {
   position: relative;
-  height: calc(100vh - 203px); }
+  height: calc(100vh - 269px); }
 
 .mailbox-inbox .mail-content-container {
   position: relative;

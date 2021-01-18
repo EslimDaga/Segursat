@@ -9,8 +9,15 @@
 	===============================
 */
 .section {
-  border: 1px solid #e0e6ed;
-  box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06); }
+  -webkit-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.0901961), 0 1px 20px 0 rgba(0, 0, 0, 0.08), 0px 1px 11px 0px rgba(0, 0, 0, 0.06);
+  -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.0901961), 0 1px 20px 0 rgba(0, 0, 0, 0.08), 0px 1px 11px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.0901961), 0 1px 20px 0 rgba(0, 0, 0, 0.08), 0px 1px 11px 0px rgba(0, 0, 0, 0.06); }
+
+body.minimal .section {
+  border: 1px solid rgba(92, 26, 195, 0.14);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none; }
 
 .layout-spacing {
   padding-bottom: 25px; }
@@ -277,7 +284,7 @@
 .account-settings-footer {
   position: fixed;
   bottom: 0;
-  width: calc(100% - 295px);
+  width: calc(100% - 190px);
   background: #191e3a;
   padding: 12px 20px;
   -webkit-box-shadow: -2px -9px 20px rgba(126, 142, 177, 0.12);
@@ -291,14 +298,14 @@
     justify-content: space-between; }
 
 .sidebar-closed .account-settings-footer {
-  width: calc(100% - 94px); }
+  width: calc(100% - 40px); }
 
 @media (max-width: 991px) {
   .account-settings-container .account-content {
     width: 100%;
     padding: 0; }
   .account-settings-footer {
-    width: calc(100% - 29px); } }
+    width: calc(100% - 40px); } }
 
 @media (max-width: 767px) {
   .general-info .info .upload {

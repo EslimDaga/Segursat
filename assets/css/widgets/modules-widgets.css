@@ -25,14 +25,22 @@
   padding: 0;
   border-radius: 6px;
   border: none;
-  border: 1px solid #e0e6ed;
-  box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06); }
+  -webkit-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07); }
+
+body.minimal .widget {
+  border: 1px solid #e0e6ed !important;
+  box-shadow: none; }
 
 /*
     ==================
         Notification
     ==================
 */
+body.minimal .widget-card-four {
+  padding: 25px 32px; }
+
 .widget-card-four {
   padding: 25px 32px;
   background: #fff; }
@@ -400,10 +408,13 @@
         Balance
     ==================
 */
+body.minimal .widget-account-invoice-two {
+  padding: 22px 19px; }
+
 .widget-account-invoice-two {
   padding: 22px 19px;
   background: #e2a03f;
-  background: linear-gradient(to right, #6b7764 0%, #2f384f 100%); }
+  background: linear-gradient(to right, #0081ff 0%, #0045ff 100%); }
   .widget-account-invoice-two .account-box .info {
     display: flex;
     justify-content: space-between;
@@ -440,6 +451,9 @@
         Statistics
     ==================
 */
+body.minimal .widget-card-one {
+  padding: 20px 0; }
+
 .widget-card-one {
   background: #fff;
   padding: 20px 0;
@@ -493,6 +507,9 @@
         Visitors by Browser
     ===========================
 */
+body.minimal .widget-four {
+  padding: 20px; }
+
 .widget-four {
   position: relative;
   background: #fff;
@@ -578,6 +595,9 @@
         Dev Summit
     ==================
 */
+body.minimal .widget-card-two {
+  padding: 20px 0px; }
+
 .widget-card-two {
   background: #fff;
   padding: 20px 0px; }
@@ -639,6 +659,9 @@
         Task Indicator
     =====================
 */
+body.minimal .widget-five {
+  padding: 28px 0 0 0; }
+
 .widget-five {
   background: #fff;
   padding: 28px 0 0 0;
@@ -722,6 +745,7 @@
   position: relative;
   padding: 20px;
   border-radius: 8px;
+  border: none;
   background: #fff; }
   .sales .widget .widget-heading {
     margin-bottom: 15px; }
@@ -737,14 +761,19 @@
         Total Sales
     ==================
 */
+body.minimal .widget-two {
+  border: 1px solid #e0e6ed !important;
+  box-shadow: none; }
+
 .widget-two {
   position: relative;
   background: #fff;
   padding: 0;
   border-radius: 8px;
   height: 100%;
-  border: 1px solid #e0e6ed;
-  box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06); }
+  -webkit-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07); }
   .widget-two .widget-content {
     font-size: 17px; }
   .widget-two .w-chart {
@@ -823,8 +852,9 @@
   padding: 0;
   border-radius: 8px;
   height: 100%;
-  border: 1px solid #e0e6ed;
-  box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06); }
+  -webkit-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07); }
   .widget-one .widget-content {
     font-size: 17px; }
   .widget-one .w-numeric-value {
@@ -865,14 +895,19 @@
         Order Summary
     ====================
 */
+body.minimal .widget-three {
+  border: 1px solid #e0e6ed !important;
+  box-shadow: none; }
+
 .widget-three {
   position: relative;
   background: #fff;
   padding: 20px;
   border-radius: 8px;
   height: 100%;
-  border: 1px solid #e0e6ed;
-  box-shadow: 0 0 40px 0 rgba(94, 92, 154, 0.06); }
+  -webkit-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+  -moz-box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 4px 6px 0 rgba(85, 85, 85, 0.08), 0 1px 20px 0 rgba(0, 0, 0, 0.07), 0px 1px 11px 0px rgba(0, 0, 0, 0.07); }
   .widget-three .widget-heading {
     margin-bottom: 54px; }
     .widget-three .widget-heading h5 {
@@ -963,8 +998,8 @@
     letter-spacing: 1px;
     font-weight: 600;
     padding: 5px 7px;
-    background: #c2d5ff;
-    color: #1b55e2;
+    background: #1b55e2;
+    color: #fff;
     border-radius: 4px; }
 
 /*
