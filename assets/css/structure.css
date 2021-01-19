@@ -145,6 +145,10 @@ code {
 #container.fixed-header {
   margin-top: 56px; }
 
+  .container-map-all{
+    position: relative;
+  }
+
 #content {
   width: 50%;
   flex-grow: 8;
@@ -588,7 +592,7 @@ code {
   margin-left: 35px; }
   .navbar .navbar-item .nav-item.search-animated svg {
     cursor: pointer;
-    color: rgba(92, 26, 195, 0.47);
+    color: #304aca;
     position: absolute;
     width: 20px;
     height: 20px;
@@ -597,7 +601,7 @@ code {
 
 .navbar .navbar-item .nav-item form.form-inline input.search-form-control {
   font-size: 15px;
-  background-color: rgba(92, 26, 195, 0.0901961);
+  background-color: rgba(206, 228, 255, 1);
   padding-right: 40px;
   padding-top: 12px;
   border: none;
@@ -806,7 +810,7 @@ code {
   height: 100%;
   height: calc(100vh - 79px);
   top: 80px;
-  background: #f0eafa;
+  background: #cee4ff;
   width: 225px;
   padding: 20px;
   transition: .3s ease all;
